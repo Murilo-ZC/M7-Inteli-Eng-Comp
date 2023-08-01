@@ -17,6 +17,13 @@ Este roadmap tem por objetivo apresentar os principais elementos que serão abor
 Este encontro tem por objetivo apresentar os conceitos básicos de containers, bem como sua utilização e principais ferramentas para o desenvolvimento de aplicações em containers.
 
 <strong>Autoestudos:</strong>
+- TODO
+
+<strong>Slides da Aula:</strong>
+- TODO
+
+<strong>Questionários Complementares:</strong>
+- TODO
 
 </details>
 
