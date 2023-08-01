@@ -8,7 +8,7 @@ Repositório utilizado para compartilhar os materiais de desenvolvimento no mód
 Este roadmap tem por objetivo apresentar os principais elementos que serão abordados ao longo do módulo. O roadmap será atualizado conforme o andamento do módulo.
 
 <p align="center">
-  <img src="./images/roadmap.png" width="350" title="Roadmap do Módulo 7">
+  <img src="./static/Estrutura_M7_EC_Macro.png" width="350" title="Roadmap do Módulo 7">
 </p>
 <p align="center">Roadmap do Módulo 7</p>
 
