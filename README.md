@@ -27,6 +27,211 @@ Este encontro tem por objetivo apresentar os conceitos básicos de containers, b
 
 </details>
 
+<details>
+<summary>Encontro 02 - Arquitetura de Software e Introdução ao Cloud</summary>
+<br>
+<strong>Objetivo do Encontro:</strong>
+- TODO
+
+<strong>Autoestudos:</strong>
+- TODO
+
+<strong>Slides da Aula:</strong>
+- TODO
+
+<strong>Questionários Complementares:</strong>
+- TODO
+
+</details>
+
+<details>
+<summary>Encontro 03 - Serviços de Cloud e Controle de Usuários</summary>
+<br>
+<strong>Objetivo do Encontro:</strong>
+- TODO
+
+<strong>Autoestudos:</strong>
+- TODO
+
+<strong>Slides da Aula:</strong>
+- TODO
+
+<strong>Questionários Complementares:</strong>
+- TODO
+
+</details>
+
+<details>
+<summary>Encontro 04 - Processo de ETL</summary>
+<br>
+<strong>Objetivo do Encontro:</strong>
+- TODO
+
+<strong>Autoestudos:</strong>
+- TODO
+
+<strong>Slides da Aula:</strong>
+- TODO
+
+<strong>Questionários Complementares:</strong>
+- TODO
+
+</details>
+
+<details>
+<summary>Encontro 05 - Banco de Dados Relacional</summary>
+<br>
+<strong>Objetivo do Encontro:</strong>
+- TODO
+
+<strong>Autoestudos:</strong>
+- TODO
+
+<strong>Slides da Aula:</strong>
+- TODO
+
+<strong>Questionários Complementares:</strong>
+- TODO
+
+</details>
+
+<details>
+<summary>Encontro 06 - Banco de Dados Não Relacional</summary>
+<br>
+<strong>Objetivo do Encontro:</strong>
+- TODO
+
+<strong>Autoestudos:</strong>
+- TODO
+
+<strong>Slides da Aula:</strong>
+- TODO
+
+<strong>Questionários Complementares:</strong>
+- TODO
+
+</details>
+
+<details>
+<summary>Encontro 07 - Nivelamento de Machine Learning</summary>
+<br>
+<strong>Objetivo do Encontro:</strong>
+- TODO
+
+<strong>Autoestudos:</strong>
+- TODO
+
+<strong>Slides da Aula:</strong>
+- TODO
+
+<strong>Questionários Complementares:</strong>
+- TODO
+
+</details>
+
+<details>
+<summary>Encontro 08 - AutoML, Feature Engineering e Fine Tunning</summary>
+<br>
+<strong>Objetivo do Encontro:</strong>
+- TODO
+
+<strong>Autoestudos:</strong>
+- TODO
+
+<strong>Slides da Aula:</strong>
+- TODO
+
+<strong>Questionários Complementares:</strong>
+- TODO
+
+</details>
+
+<details>
+<summary>Encontro 09 - Deploy de Sistemas de Machine Learning e Streamlit</summary>
+<br>
+<strong>Objetivo do Encontro:</strong>
+- TODO
+
+<strong>Autoestudos:</strong>
+- TODO
+
+<strong>Slides da Aula:</strong>
+- TODO
+
+<strong>Questionários Complementares:</strong>
+- TODO
+
+</details>
+
+<details>
+<summary>Encontro 10 - Sistemas de troca de informação/mensageria</summary>
+<br>
+<strong>Objetivo do Encontro:</strong>
+- TODO
+
+<strong>Autoestudos:</strong>
+- TODO
+
+<strong>Slides da Aula:</strong>
+- TODO
+
+<strong>Questionários Complementares:</strong>
+- TODO
+
+</details>
+
+<details>
+<summary>Encontro 12 - Introdução as Séries Temporais</summary>
+<br>
+<strong>Objetivo do Encontro:</strong>
+- TODO
+
+<strong>Autoestudos:</strong>
+- TODO
+
+<strong>Slides da Aula:</strong>
+- TODO
+
+<strong>Questionários Complementares:</strong>
+- TODO
+
+</details>
+
+<details>
+<summary>Encontro 13 - Desenvolvimento Assistido</summary>
+<br>
+<strong>Objetivo do Encontro:</strong>
+- TODO
+
+<strong>Autoestudos:</strong>
+- TODO
+
+<strong>Slides da Aula:</strong>
+- TODO
+
+<strong>Questionários Complementares:</strong>
+- TODO
+
+</details>
+
+<details>
+<summary>Encontro 14 - Refinamentos do Projeto</summary>
+<br>
+<strong>Objetivo do Encontro:</strong>
+- TODO
+
+<strong>Autoestudos:</strong>
+- TODO
+
+<strong>Slides da Aula:</strong>
+- TODO
+
+<strong>Questionários Complementares:</strong>
+- TODO
+
+</details>
+
+
 ## Links úteis
 
 Alguns links úteis para o desenvolvimento do módulo 7.
