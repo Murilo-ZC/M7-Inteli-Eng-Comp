@@ -7,6 +7,19 @@ Repositório utilizado para compartilhar os materiais de desenvolvimento no mód
 
 Este roadmap tem por objetivo apresentar os principais elementos que serão abordados ao longo do módulo. O roadmap será atualizado conforme o andamento do módulo.
 
+## Encontros do Módulo
+
+<details>
+<summary>Encontro 01 - Containers</summary>
+<br>
+<strong>Objetivo do Encontro:</strong>
+
+    Este encontro tem por objetivo apresentar os conceitos básicos de containers, bem como sua utilização e principais ferramentas para o desenvolvimento de aplicações em containers.
+
+<strong>Autoestudos:</strong>
+
+</details>
+
 ## Links úteis
 
 Alguns links úteis para o desenvolvimento do módulo 7.
