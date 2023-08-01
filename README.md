@@ -7,6 +7,12 @@ Repositório utilizado para compartilhar os materiais de desenvolvimento no mód
 
 Este roadmap tem por objetivo apresentar os principais elementos que serão abordados ao longo do módulo. O roadmap será atualizado conforme o andamento do módulo.
 
+<p align="center">
+  <img src="./images/roadmap.png" width="350" title="Roadmap do Módulo 7">
+</p>
+<p align="center">Roadmap do Módulo 7</p>
+
+
 ## Encontros do Módulo
 
 <details>
@@ -235,6 +241,8 @@ Este encontro tem por objetivo apresentar os conceitos básicos de containers, b
 ## Links úteis
 
 Alguns links úteis para o desenvolvimento do módulo 7.
+
+- [Techguide para Desenvolvimento em IA - Módulo 1](https://techguide.sh/pt-BR/path/inteligencia-artificial/)
 
 ## Material de Referência
 
