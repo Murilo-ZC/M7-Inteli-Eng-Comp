@@ -5,10 +5,20 @@ Repositório utilizado para compartilhar os materiais de desenvolvimento no mód
 
 ## Roadmap do Módulo 7 - Programação
 
+A estrutura do curso foi pensada para que os alunos possam ter uma visão geral de como os conceitos de programação são aplicados em diferentes áreas da computação. Para isso, o módulo foi dividido em 2 partes principais:
+
+- Engenharia de Software
+- Machine Learning
+
+<p align="center">
+  <img src="./static/Estrutura_M7_EC_Macro.png" width="100%" height="auto" title="Componentes Principais do Módulo 7">
+</p>
+<p align="center">Componentes Principais do Módulo 7</p>
+
 Este roadmap tem por objetivo apresentar os principais elementos que serão abordados ao longo do módulo. O roadmap será atualizado conforme o andamento do módulo.
 
 <p align="center">
-  <img src="./static/Estrutura_M7_EC_Macro.png" width="100%" height="auto" title="Roadmap do Módulo 7">
+  <img src="./static/Roadmap_M7.png" width="100%" height="auto" title="Roadmap do Módulo 7">
 </p>
 <p align="center">Roadmap do Módulo 7</p>
 
@@ -171,6 +181,24 @@ Este encontro tem por objetivo apresentar os conceitos básicos de containers, b
 
 <details>
 <summary>Encontro 10 - Sistemas de troca de informação/mensageria</summary>
+<br>
+<strong>Objetivo do Encontro:</strong>
+- TODO
+
+<strong>Autoestudos:</strong>
+- TODO
+
+<strong>Slides da Aula:</strong>
+- TODO
+
+<strong>Questionários Complementares:</strong>
+- TODO
+
+</details>
+
+
+<details>
+<summary>Encontro 11 - Integração de Dados (API) com o Front</summary>
 <br>
 <strong>Objetivo do Encontro:</strong>
 - TODO
