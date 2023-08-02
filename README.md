@@ -277,3 +277,13 @@ Alguns links úteis para o desenvolvimento do módulo 7.
 
 Material de apoio para quem desejar aprofundar seus conhecimentos em algum assunto específico abordado ao longo do módulo.
 
+### ***Apache Parquet***
+
+- [Apache Parquet](https://parquet.apache.org/)
+- [O que são arquivos Parquet](https://www.alura.com.br/artigos/arquivos-parquet)
+- [Porque utilizar Parquet](https://www.upsolver.com/blog/apache-parquet-why-use)
+
+### ***Python Dask***
+
+- [Dask](https://dask.org/)
+
