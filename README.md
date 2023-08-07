@@ -33,7 +33,14 @@ Este roadmap tem por objetivo apresentar os principais elementos que serão abor
 Este encontro tem por objetivo apresentar os conceitos básicos de containers, bem como sua utilização e principais ferramentas para o desenvolvimento de aplicações em containers.
 
 <strong>Estudos Complementares:</strong>
-- TODO
+
+- [Descomplicando o Docker](https://livro.descomplicandodocker.com.br/)
+- [Introdução aos containers](https://www.redhat.com/pt-br/topics/containers)
+- [Um guia para iniciantes em Docker — como criar sua primeira aplicação com o Docker](https://www.freecodecamp.org/portuguese/news/um-guia-para-iniciantes-em-docker-como-criar-sua-primeira-aplicacao-com-o-docker/)
+- [Docker - Instalação, Configuração e Primeiros Passos](https://balta.io/blog/docker-instalacao-configuracao-e-primeiros-passos)
+- [Aprenda Docker do Zero, tutorial passo a passo.](https://www.youtube.com/watch?v=8MJWke19g8U)
+- [Learn Docker in 7 Easy Steps - Full Beginner's Tutorial](https://www.youtube.com/watch?v=gAkwW2tuIqE)
+- [Entendendo Funcionamento de Containers](https://www.youtube.com/watch?v=85k8se4Zo70)
 
 <strong>Slides da Aula:</strong>
 
