@@ -41,6 +41,8 @@ Este encontro tem por objetivo apresentar os conceitos básicos de containers, b
 - [Aprenda Docker do Zero, tutorial passo a passo.](https://www.youtube.com/watch?v=8MJWke19g8U)
 - [Learn Docker in 7 Easy Steps - Full Beginner's Tutorial](https://www.youtube.com/watch?v=gAkwW2tuIqE)
 - [Entendendo Funcionamento de Containers](https://www.youtube.com/watch?v=85k8se4Zo70)
+- [Podman vs. Docker](https://www.youtube.com/watch?v=Xx588nbshlM)
+- [Podman](https://podman.io/)
 
 <strong>Slides da Aula:</strong>
 
@@ -55,13 +57,15 @@ Este encontro tem por objetivo apresentar os conceitos básicos de containers, b
 <summary>Encontro 02 - Arquitetura de Software e Introdução ao Cloud</summary>
 <br>
 <strong>Objetivo do Encontro:</strong>
-- TODO
+
+O objetivo deste encontro é a discussão de conceitos de arquitetura de software, trazendo a visão das regras de negócio para definir as técnicas e algoritmos utilizados. Serão abordados de forma prática alguns dos design patterns mais comuns.
 
 <strong>Estudos Complementares:</strong>
 - TODO
 
 <strong>Slides da Aula:</strong>
-- TODO
+
+- [Slides Encontro 02](https://slides.com/murilozaninidecarvalho/code)
 
 <strong>Questionários Complementares:</strong>
 - TODO
