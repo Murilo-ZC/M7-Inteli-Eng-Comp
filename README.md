@@ -63,6 +63,9 @@ O objetivo deste encontro é a discussão de conceitos de arquitetura de softwar
 <strong>Estudos Complementares:</strong>
 
 - [FastAPI in Containers - Docker](https://fastapi.tiangolo.com/deployment/docker/)
+- [10 MOST POPULAR SOFTWARE ARCHITECTURAL PATTERNS](https://nix-united.com/blog/10-common-software-architectural-patterns-part-1/)
+- [10 Software Architecture Patterns in Enterprise Software Development](https://blog.devgenius.io/10-software-architecture-patterns-in-enterprise-software-development-fabacb5ed0c8)
+- [14 software architecture design patterns to know](https://www.redhat.com/architect/14-software-architecture-patterns)
 
 <strong>Slides da Aula:</strong>
 
