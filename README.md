@@ -61,13 +61,15 @@ Este encontro tem por objetivo apresentar os conceitos básicos de containers, b
 O objetivo deste encontro é a discussão de conceitos de arquitetura de software, trazendo a visão das regras de negócio para definir as técnicas e algoritmos utilizados. Serão abordados de forma prática alguns dos design patterns mais comuns.
 
 <strong>Estudos Complementares:</strong>
-- TODO
+
+- [FastAPI in Containers - Docker](https://fastapi.tiangolo.com/deployment/docker/)
 
 <strong>Slides da Aula:</strong>
 
 - [Slides Encontro 02](https://slides.com/murilozaninidecarvalho/code)
 
 <strong>Questionários Complementares:</strong>
+
 - TODO
 
 </details>
