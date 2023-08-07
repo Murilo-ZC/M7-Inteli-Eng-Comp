@@ -66,6 +66,7 @@ O objetivo deste encontro é a discussão de conceitos de arquitetura de softwar
 - [10 MOST POPULAR SOFTWARE ARCHITECTURAL PATTERNS](https://nix-united.com/blog/10-common-software-architectural-patterns-part-1/)
 - [10 Software Architecture Patterns in Enterprise Software Development](https://blog.devgenius.io/10-software-architecture-patterns-in-enterprise-software-development-fabacb5ed0c8)
 - [14 software architecture design patterns to know](https://www.redhat.com/architect/14-software-architecture-patterns)
+- [20 System Design Concepts Explained in 10 Minutes](https://www.youtube.com/watch?v=i53Gi_K3o7I)
 
 <strong>Slides da Aula:</strong>
 
@@ -238,7 +239,10 @@ O objetivo deste encontro é a discussão de conceitos de arquitetura de softwar
 - TODO
 
 <strong>Estudos Complementares:</strong>
-- TODO
+
+- [How to Create an ARIMA Model for Time Series Forecasting in Python](https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/)
+- [ARIMA Model – Complete Guide to Time Series Forecasting in Python](https://www.machinelearningplus.com/time-series/arima-model-time-series-forecasting-python/)
+- [ARIMA Model for Time Series Forecasting](https://www.kaggle.com/code/prashant111/arima-model-for-time-series-forecasting)
 
 <strong>Slides da Aula:</strong>
 - TODO
