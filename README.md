@@ -82,13 +82,19 @@ O objetivo deste encontro é a discussão de conceitos de arquitetura de softwar
 <summary>Encontro 03 - Serviços de Cloud e Controle de Usuários</summary>
 <br>
 <strong>Objetivo do Encontro:</strong>
-- TODO
+
+- O objetivo principal do encontro é possibilitar que os alunos consigam compreender como a autenticação de usuários é realizada e a importancia deste processo.
 
 <strong>Estudos Complementares:</strong>
-- TODO
+
+- [FastAPI Authentication with JWT (JSON Web Tokens)](https://www.youtube.com/watch?v=0_seNFCtglk)
+- [JWT](https://jwt.io/)
+- [O que é JWT?](https://www.treinaweb.com.br/blog/o-que-e-jwt)
+- [Using FastAPI inside Docker containers](https://blog.logrocket.com/using-fastapi-inside-docker-containers/)
 
 <strong>Slides da Aula:</strong>
-- TODO
+
+- [Slides Encontro 03](https://slides.com/murilozaninidecarvalho/code)
 
 <strong>Questionários Complementares:</strong>
 - TODO
