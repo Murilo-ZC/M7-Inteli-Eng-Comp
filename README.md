@@ -298,6 +298,10 @@ O objetivo deste encontro é a discussão de conceitos de arquitetura de softwar
 Alguns links úteis para o desenvolvimento do módulo 7.
 
 - [Techguide para Desenvolvimento em IA - Módulo 1](https://techguide.sh/pt-BR/path/inteligencia-artificial/)
+- [Trocando ideia e falando de #CRUDComQualidade](https://www.youtube.com/watch?v=s_NDuO1z88I)
+- [Curso feliz de React - Básico - Jogo da Velha](https://www.youtube.com/watch?v=1g-tQSEgGyw&list=PLirko8T4cEmwkMsKEsEnHs6dUPcdqWVvX)
+- [Curso de Responsivo Feliz com HTML e CSS](https://www.youtube.com/watch?v=HiPwxMcOILI&list=PLirko8T4cEmzidHx2hSE8NVdPgNXX-iEE)
+- [Canal Marco Bruno](https://www.youtube.com/@MarcoBrunoDev)
 
 ## Material de Referência
 
