@@ -1,7 +1,7 @@
 # Scripts com os modelos das tabelas
 
 # Importações utilizadas
-from sqlalchemy import Column, Integer, String, Float, DateTime
+from sqlalchemy import Column, Integer, String, Float, Date
 from shared.base import Base
 
 class Cotacao(Base):
@@ -11,7 +11,7 @@ class Cotacao(Base):
     __tablename__ = "cotacoes"
 
     id = Column(Integer, primary_key=True, autoincrement=True)
-    data = Column(DateTime)
+    data = Column(Date)
     cotacao_compra = Column(Float)
     cotacao_venda = Column(Float)
 

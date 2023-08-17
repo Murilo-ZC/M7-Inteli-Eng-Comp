@@ -1,6 +1,6 @@
 # Script para extrair as informações de uma fonte de dados
 # Constantes definidas para a aplicação
-DATA_INICIAL = "07-01-2023"
+DATA_INICIAL = "07-01-2022"
 DATA_FINAL = "08-31-2023"
 SOURCE_URL = f"https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarPeriodo(dataInicial=@dataInicial,dataFinalCotacao=@dataFinalCotacao)?@dataInicial='{DATA_INICIAL}'&@dataFinalCotacao='{DATA_FINAL}'&$format=text/csv&$select=cotacaoCompra,cotacaoVenda,dataHoraCotacao"
 # Importações utilizadas

@@ -5,7 +5,7 @@ from sqlalchemy.orm import Session
 # Constantes
 DB_USER = "postgres"
 DB_PASSWORD = "yourpassword"
-DB_HOST = "localhost"
+DB_HOST = "127.0.0.1"
 DB_PORT = "5432"
 DB_NAME = "postgres"
 

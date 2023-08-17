@@ -24,7 +24,7 @@ def update_price(price_input):
     Return price as float by removing:
     - "," to convert the number into float first (e.g. from "€100,000.00" to "100000.00")
     """
-    price_input = float(price_input.replace(",", ""))
+    price_input = float(price_input.replace(",", "."))
     return price_input
 
 
@@ -35,18 +35,15 @@ def transform_new_data():
     with open(RAW_PATH, mode="r", encoding="windows-1252") as csv_file:
         # Read the new CSV snapshot ready to be processed
         reader = csv.DictReader(csv_file)
-        # Initialize an empty list for our PprRawAll objects
         cotacao_objects = []
         for row in reader:
-            print(row)
-            # Apply transformations and save as PprRawAll object
-            cotacao_objects.append(
-                Cotacao(
+            dado = Cotacao(
                     data=update_date_format(row["dataHoraCotacao"]),
                     cotacao_compra=update_price(row["cotacaoCompra"]),
                     cotacao_venda=update_price(row["cotacaoVenda"]),
                 )
-            )
+            cotacao_objects.append(dado)
+
         # Save all new processed objects and commit
         session.bulk_save_objects(cotacao_objects)
         session.commit()
