@@ -105,13 +105,19 @@ O objetivo deste encontro é a discussão de conceitos de arquitetura de softwar
 <summary>Encontro 04 - Processo de ETL</summary>
 <br>
 <strong>Objetivo do Encontro:</strong>
-- TODO
+
+- O objetivo principal do encontro é apresentar o processo de ETL (Extração, Transformação e Carga) de dados. Este processo será realziado em partes, com o intuíto de utilizar um abordagem didática, com dados reais e um contexto de mercado para os estudantes. Espera-se que com o final da instrução, os estudantes possam compreender o processo de ETL e como ele pode ser utilizado em contextos de dados.
 
 <strong>Estudos Complementares:</strong>
-- TODO
+
+- [ETL X ELT: qual a diferença?](https://academy.indicium.tech/blog/etl-vs-elt-diferencas)
+- [Dólar comercial (venda e compra) - cotações diárias e Taxas de Câmbio - todos os boletins diários - v1](https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/documentacao#Moedas)
+- [Dólar comercial (venda e compra) - cotações diárias e Taxas de Câmbio - todos os boletins diários](https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/swagger-ui3#/)
+- [Banco Central do Brasil - API - Navegador de Dados](https://dadosabertos.bcb.gov.br/dataset/expectativas-mercado/resource/d420a704-75a7-4f45-8f4b-0fca813c70f0)
 
 <strong>Slides da Aula:</strong>
-- TODO
+
+- [Slides Encontro 04](https://slides.com/murilozaninidecarvalho/code)
 
 <strong>Questionários Complementares:</strong>
 - TODO
@@ -302,6 +308,8 @@ Alguns links úteis para o desenvolvimento do módulo 7.
 - [Curso feliz de React - Básico - Jogo da Velha](https://www.youtube.com/watch?v=1g-tQSEgGyw&list=PLirko8T4cEmwkMsKEsEnHs6dUPcdqWVvX)
 - [Curso de Responsivo Feliz com HTML e CSS](https://www.youtube.com/watch?v=HiPwxMcOILI&list=PLirko8T4cEmzidHx2hSE8NVdPgNXX-iEE)
 - [Canal Marco Bruno](https://www.youtube.com/@MarcoBrunoDev)
+- [React Hooks: Compound Components](https://kentcdodds.com/blog/compound-components-with-react-hooks)
+- [Patterns.dev](https://www.patterns.dev/)
 
 ## Material de Referência
 
