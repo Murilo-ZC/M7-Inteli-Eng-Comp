@@ -114,6 +114,7 @@ O objetivo deste encontro é a discussão de conceitos de arquitetura de softwar
 - [Dólar comercial (venda e compra) - cotações diárias e Taxas de Câmbio - todos os boletins diários - v1](https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/documentacao#Moedas)
 - [Dólar comercial (venda e compra) - cotações diárias e Taxas de Câmbio - todos os boletins diários](https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/swagger-ui3#/)
 - [Banco Central do Brasil - API - Navegador de Dados](https://dadosabertos.bcb.gov.br/dataset/expectativas-mercado/resource/d420a704-75a7-4f45-8f4b-0fca813c70f0)
+- [DBeaver Community](https://dbeaver.io/download/)
 
 <strong>Slides da Aula:</strong>
 
