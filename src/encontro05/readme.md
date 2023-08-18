@@ -37,6 +37,6 @@ docker-compose up
 Isso vai lançar os containers do Postgres e do Adminer. Para acessar o Adminer, no navegador, ir para url: http://localhost:8080.
 
 <p align="center">
-  <img src="./static/adminer.png" width="100%" height="auto" title="Tela de Login Inicial do Adminer">
+  <img src="../../static/adminer.png" width="100%" height="auto" title="Tela de Login Inicial do Adminer">
 </p>
 
