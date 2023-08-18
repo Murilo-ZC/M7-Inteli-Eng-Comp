@@ -121,7 +121,11 @@ O objetivo deste encontro é a discussão de conceitos de arquitetura de softwar
 - [Slides Encontro 04](https://slides.com/murilozaninidecarvalho/code)
 
 <strong>Questionários Complementares:</strong>
-- TODO
+
+- Durante a aula, criamos uma aplicação em nossa máquina local e acessamos os dados dentro do container. Coloque agora nossa aplicação dentro de um container e execute ela junto com o container do banco de dados.
+- Crie uma interface que permite o usuário escolher a data que ele deseja realizar a extração dos dados. Essa interface pode ser via linha de comando (CLI).
+- Adicione mais um container para navegar nos dados extraídos.
+- ***DESAFIO:*** Construa uma interface gráfica que permita ao usuário visualizar os dados extraídos e buscar mais dados.
 
 </details>
 
@@ -129,16 +133,22 @@ O objetivo deste encontro é a discussão de conceitos de arquitetura de softwar
 <summary>Encontro 05 - Banco de Dados Relacional</summary>
 <br>
 <strong>Objetivo do Encontro:</strong>
-- TODO
+
+- O principal objetivo deste encontro é compreender como os bancos de dados relacionais são projetados e como deve acontecer sua utilização. Ao longo do encontro, espera-se que os estudantes também consigam estudar os fundamentos da linguagem SQL e consigam realizar a manipulação de dados com ela. Quanto a tecnologia utilizada, o banco Postgres será utilizado em conjunto com a linguagem Python para realizar a conecção aos bancos. Estimula-se que os estudantes explorem outras formas de se conectar ao banco de dados, com o JavaScript, por exemplo.
 
 <strong>Estudos Complementares:</strong>
+
 - TODO
 
 <strong>Slides da Aula:</strong>
-- TODO
+
+- [Slides Encontro 05](https://slides.com/murilozaninidecarvalho/code)
 
 <strong>Questionários Complementares:</strong>
-- TODO
+
+- Tente reproduzir o que foi desenvolvido em aula utilizando SQLite.
+- Tente reproduzri o que foi desenvolvido em aula utilizando MySQL.
+- Ao realizar as tentativas anteriores, verifique o quanto do code base precisou ser alterado.
 
 </details>
 
