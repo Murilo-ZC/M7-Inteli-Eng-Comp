@@ -138,7 +138,10 @@ O objetivo deste encontro é a discussão de conceitos de arquitetura de softwar
 
 <strong>Estudos Complementares:</strong>
 
-- TODO
+- [Modelagem de Dados - A abordagem Entidade-Relacionamento para Projeto Lógico; Peter Chen](https://www.amazon.com.br/Modelagem-Dados-Abordagem-Entidade-Relacionamento/dp/0074605755)
+- [SQL em 10 Minutos por Dia; Ben Forta](https://www.amazon.com.br/SQL-10-Minutos-por-dia/dp/6586057442/ref=sr_1_1?keywords=sql+em+10+minutos&qid=1692367951&s=books&sprefix=sql+em+10%2Cstripbooks%2C413&sr=1-1)
+- [Descrição das noções básicas de normalização do banco de dados](https://learn.microsoft.com/pt-br/office/troubleshoot/access/database-normalization-description)
+- [Normalização em Banco de Dados - Estrutura](https://www.alura.com.br/artigos/normalizacao-banco-de-dados-estrutura)
 
 <strong>Slides da Aula:</strong>
 
@@ -335,4 +338,13 @@ Material de apoio para quem desejar aprofundar seus conhecimentos em algum assun
 ### ***Python Dask***
 
 - [Dask](https://dask.org/)
+
+### ***Design Systems***
+
+- [Awesome Design Systems](https://github.com/alexpate/awesome-design-systems)
+
+### ***Python para Frontend***
+
+- [Reflex](https://reflex.dev/)
+- [Reflex: Write Python and Build REACT.JS Apps](https://www.youtube.com/watch?v=YZIKsurfMQU)
 
