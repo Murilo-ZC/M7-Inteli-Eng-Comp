@@ -142,6 +142,10 @@ O objetivo deste encontro é a discussão de conceitos de arquitetura de softwar
 - [SQL em 10 Minutos por Dia; Ben Forta](https://www.amazon.com.br/SQL-10-Minutos-por-dia/dp/6586057442/ref=sr_1_1?keywords=sql+em+10+minutos&qid=1692367951&s=books&sprefix=sql+em+10%2Cstripbooks%2C413&sr=1-1)
 - [Descrição das noções básicas de normalização do banco de dados](https://learn.microsoft.com/pt-br/office/troubleshoot/access/database-normalization-description)
 - [Normalização em Banco de Dados - Estrutura](https://www.alura.com.br/artigos/normalizacao-banco-de-dados-estrutura)
+- [Database Technology Evolution](https://arxiv.org/ftp/arxiv/papers/2303/2303.11748.pdf)
+- [O que é um Banco de Dados?](https://www.oracle.com/br/database/what-is-database/)
+- [db-engines](https://db-engines.com/en/)
+- [What is DBMS? (Components, Features, Advantages)](https://databasetown.com/what-is-dbms-components-features-advantages/)
 
 <strong>Slides da Aula:</strong>
 
