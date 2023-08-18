@@ -146,6 +146,9 @@ O objetivo deste encontro é a discussão de conceitos de arquitetura de softwar
 - [O que é um Banco de Dados?](https://www.oracle.com/br/database/what-is-database/)
 - [db-engines](https://db-engines.com/en/)
 - [What is DBMS? (Components, Features, Advantages)](https://databasetown.com/what-is-dbms-components-features-advantages/)
+- [Discutindo sobre Banco de Dados - Dos primórdios a Big Data](https://www.youtube.com/watch?v=Bfm3Ms2cTg0)
+- [Data Modeling With Joe Reis - Understanding What Data Modeling Is And Where It's Going](https://www.youtube.com/watch?v=NKo02ThtAto)
+- [Data Modeling in the Modern Data Stack](https://www.youtube.com/watch?v=IdCmMkQLvGA)
 
 <strong>Slides da Aula:</strong>
 
