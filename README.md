@@ -67,6 +67,7 @@ O objetivo deste encontro é a discussão de conceitos de arquitetura de softwar
 - [10 Software Architecture Patterns in Enterprise Software Development](https://blog.devgenius.io/10-software-architecture-patterns-in-enterprise-software-development-fabacb5ed0c8)
 - [14 software architecture design patterns to know](https://www.redhat.com/architect/14-software-architecture-patterns)
 - [20 System Design Concepts Explained in 10 Minutes](https://www.youtube.com/watch?v=i53Gi_K3o7I)
+- [How to Burn Money in the Cloud // Avoid AWS, GCP, Azure Cost Disasters](https://www.youtube.com/watch?v=N6lYcXjd4pg)
 
 <strong>Slides da Aula:</strong>
 
@@ -149,6 +150,11 @@ O objetivo deste encontro é a discussão de conceitos de arquitetura de softwar
 - [Discutindo sobre Banco de Dados - Dos primórdios a Big Data](https://www.youtube.com/watch?v=Bfm3Ms2cTg0)
 - [Data Modeling With Joe Reis - Understanding What Data Modeling Is And Where It's Going](https://www.youtube.com/watch?v=NKo02ThtAto)
 - [Data Modeling in the Modern Data Stack](https://www.youtube.com/watch?v=IdCmMkQLvGA)
+- [What is data modeling?](https://www.ibm.com/topics/data-modeling)
+- [SQL Databases with Pandas and Python - A Complete Guide](https://www.youtube.com/watch?v=DiQ5Hni6oRI)
+- [Introduction of ER Model](https://www.geeksforgeeks.org/introduction-of-er-model/)
+- [SQL Tutorial](https://www.w3schools.com/sql/default.asp)
+- [O que é um banco de dados relacional (RDBMS)?](https://www.oracle.com/br/database/what-is-a-relational-database/)
 
 <strong>Slides da Aula:</strong>
 
@@ -166,10 +172,14 @@ O objetivo deste encontro é a discussão de conceitos de arquitetura de softwar
 <summary>Encontro 06 - Banco de Dados Não Relacional</summary>
 <br>
 <strong>Objetivo do Encontro:</strong>
+
 - TODO
 
 <strong>Estudos Complementares:</strong>
-- TODO
+
+- [How to NOT get a 30K Firebase Bill](https://www.youtube.com/watch?v=Lb-Pnytoi-8)
+- [100 Firebase Tips, Tricks, and Screw-ups](https://www.youtube.com/watch?v=iWEgpdVSZyg)
+- [I tried 5 Firebase alternatives](https://www.youtube.com/watch?v=SXmYUalHyYk)
 
 <strong>Slides da Aula:</strong>
 - TODO
