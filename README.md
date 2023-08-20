@@ -158,6 +158,8 @@ O objetivo deste encontro é a discussão de conceitos de arquitetura de softwar
 - [PostgreSQL Advanced Pattern Matching – Beyond LIKE Operator](https://data-nerd.blog/2022/06/14/beyond-like-operator-advanced-pattern-matching-in-postgresql/)
 - [PostgreSQL NOW Function](https://www.postgresqltutorial.com/postgresql-date-functions/postgresql-now/)
 - [PostgreSQL CURRENT_DATE Function](https://www.postgresqltutorial.com/postgresql-date-functions/postgresql-current_date/)
+- [How to Find Difference Between Two Dates in PostgreSQL](https://www.commandprompt.com/education/how-to-find-difference-between-two-dates-in-postgresql/)
+- [Python PostgreSQL Insert, Update, and Delete from a Table using Psycopg2](https://pynative.com/python-postgresql-insert-update-delete-table-data-to-perform-crud-operations/)
 
 <strong>Slides da Aula:</strong>
 
