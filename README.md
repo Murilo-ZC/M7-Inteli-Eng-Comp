@@ -156,6 +156,8 @@ O objetivo deste encontro é a discussão de conceitos de arquitetura de softwar
 - [SQL Tutorial](https://www.w3schools.com/sql/default.asp)
 - [O que é um banco de dados relacional (RDBMS)?](https://www.oracle.com/br/database/what-is-a-relational-database/)
 - [PostgreSQL Advanced Pattern Matching – Beyond LIKE Operator](https://data-nerd.blog/2022/06/14/beyond-like-operator-advanced-pattern-matching-in-postgresql/)
+- [PostgreSQL NOW Function](https://www.postgresqltutorial.com/postgresql-date-functions/postgresql-now/)
+- [PostgreSQL CURRENT_DATE Function](https://www.postgresqltutorial.com/postgresql-date-functions/postgresql-current_date/)
 
 <strong>Slides da Aula:</strong>
 
