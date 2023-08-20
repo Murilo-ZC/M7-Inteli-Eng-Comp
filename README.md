@@ -155,6 +155,7 @@ O objetivo deste encontro é a discussão de conceitos de arquitetura de softwar
 - [Introduction of ER Model](https://www.geeksforgeeks.org/introduction-of-er-model/)
 - [SQL Tutorial](https://www.w3schools.com/sql/default.asp)
 - [O que é um banco de dados relacional (RDBMS)?](https://www.oracle.com/br/database/what-is-a-relational-database/)
+- [PostgreSQL Advanced Pattern Matching – Beyond LIKE Operator](https://data-nerd.blog/2022/06/14/beyond-like-operator-advanced-pattern-matching-in-postgresql/)
 
 <strong>Slides da Aula:</strong>
 
