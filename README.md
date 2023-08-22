@@ -178,7 +178,7 @@ O objetivo deste encontro é a discussão de conceitos de arquitetura de softwar
 <br>
 <strong>Objetivo do Encontro:</strong>
 
-- TODO
+- O objetivo principal do encontro é compreender a diferença entre bancos relacionais e bancos não relacionais, verificando quando cada um deles deve ser utilizado. Conhecer os tipos de bancos não relacionais existentes, com destaque para o MongoDB. Ao final do encontro, espera-se que os estudantes consigam realizar a manipulação de dados com o MongoDB.
 
 <strong>Estudos Complementares:</strong>
 
@@ -187,7 +187,8 @@ O objetivo deste encontro é a discussão de conceitos de arquitetura de softwar
 - [I tried 5 Firebase alternatives](https://www.youtube.com/watch?v=SXmYUalHyYk)
 
 <strong>Slides da Aula:</strong>
-- TODO
+
+- [Slides Encontro 06](https://slides.com/murilozaninidecarvalho/code)
 
 <strong>Questionários Complementares:</strong>
 - TODO
