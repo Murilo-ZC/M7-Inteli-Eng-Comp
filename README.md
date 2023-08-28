@@ -199,16 +199,22 @@ O objetivo deste encontro é a discussão de conceitos de arquitetura de softwar
 <summary>Encontro 07 - Nivelamento de Machine Learning</summary>
 <br>
 <strong>Objetivo do Encontro:</strong>
-- TODO
+
+O objetivo do encontro é retomar com os estudantes os principais conceitos de Machine Learning, bem como apresentar os principais algoritmos de aprendizado de máquina. Ao final do encontro, espera-se que os estudantes consigam compreender os conceitos de Machine Learning e consigam aplicar os algoritmos apresentados em problemas reais. 
+Espera-se também que os estudantes possam compreender a diferença entre ambiente de treinamento e ambiente de execução/deploy de um modelo de machine learning.
 
 <strong>Estudos Complementares:</strong>
+
 - TODO
 
 <strong>Slides da Aula:</strong>
-- TODO
+
+- [Slides Encontro 07](https://slides.com/murilozaninidecarvalho/code)
 
 <strong>Questionários Complementares:</strong>
-- TODO
+
+- Avaliar os outros **datasets** disponibilizados na atividade ponderada, tentar realizar sua exploração.
+- Tentar implementar outros modelos, para elevar a familiaridade com o processo de deploy de modelos de machine learning.
 
 </details>
 
