@@ -205,7 +205,12 @@ Espera-se também que os estudantes possam compreender a diferença entre ambien
 
 <strong>Estudos Complementares:</strong>
 
-- TODO
+- [Volumes Docker](https://docs.docker.com/storage/volumes/)
+- [Imagem RapidsAI](https://hub.docker.com/r/rapidsai/rapidsai/)
+- [rapids.ai](https://rapids.ai/#quick-start)
+- [Imagem JupyterNotebook](https://hub.docker.com/r/jupyter/datascience-notebook)
+- [Catalogo de Imagens Jupyter](https://github.com/jupyter/docker-stacks)
+- [Container Toolkit NVidia](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html)
 
 <strong>Slides da Aula:</strong>
 
