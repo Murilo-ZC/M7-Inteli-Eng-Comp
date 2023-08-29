@@ -211,6 +211,7 @@ Espera-se também que os estudantes possam compreender a diferença entre ambien
 - [Imagem JupyterNotebook](https://hub.docker.com/r/jupyter/datascience-notebook)
 - [Catalogo de Imagens Jupyter](https://github.com/jupyter/docker-stacks)
 - [Container Toolkit NVidia](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html)
+- [Evaluation of Regression Models in scikit-learn](https://www.datacourses.com/evaluation-of-regression-models-in-scikit-learn-846/)
 
 <strong>Slides da Aula:</strong>
 

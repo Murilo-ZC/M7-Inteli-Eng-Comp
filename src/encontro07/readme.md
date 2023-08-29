@@ -30,3 +30,19 @@ Para o encontro, vamos utilizar a imagem do JupyterNotebook com Python, que já 
 cd encontro07
 docker run -it --rm -p 10000:8888 -v "%cd%":/home/jovyan/work jupyter/datascience-notebook:2023-08-19
 ```
+
+Agora no navegador e acesse a URL fornecida do terminal:
+
+<p align="center">
+  <img src="../../static/url_acesso_jupyter.png" width="100%" height="auto" title="URL Jupyter Notebook">
+</p>
+<p align="center">URL Jupyter Notebook</p>
+
+> ***ATENÇÃO:*** Cuidado apenas com a porta de acesso, pelo comando que utilizamos, mapeamos a porta ***10000*** e não a porta ***8888***.
+
+<p align="center">
+  <img src="../../static/interface_jupyter.png" width="100%" height="auto" title="Interface Jupyter Notebook">
+</p>
+<p align="center">URL Jupyter Notebook</p>
+
+Vamos analisar os dados presentes em [Video Game Sales](https://www.kaggle.com/datasets/gregorut/videogamesales). Salvar e descompactar esses dados em ***datasets/vgsales***.
