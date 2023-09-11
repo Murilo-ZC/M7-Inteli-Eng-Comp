@@ -228,16 +228,26 @@ Espera-se também que os estudantes possam compreender a diferença entre ambien
 <summary>Encontro 08 - AutoML, Feature Engineering e Fine Tunning</summary>
 <br>
 <strong>Objetivo do Encontro:</strong>
-- TODO
+
+O objetivo deste encontro é compreender como utilizar ferramentas de AutoML para iniciar o desenvolvimento de modelos de ***Machine Learning***. Durante o encontro, será abordada a ferramenta [PyCaret](https://pycaret.org/). Ele pode ser utilizado localmente ou em ferramentas como o Google Colab. Ao final do encontro, espera-se que os estudantes consigam compreender como utilizar o PyCaret para desenvolver modelos de Machine Learning.
 
 <strong>Estudos Complementares:</strong>
-- TODO
+
+- [Docs - PyCaret 3.0](https://pycaret.gitbook.io/docs/)
+- [Github do PyCaret](https://github.com/pycaret/pycaret)
+- [PyCaret Tutorial: A beginner's guide for automating ML workflows using PyCaret](https://www.datacamp.com/tutorial/guide-for-automating-ml-workflows-using-pycaret)
+- [Classificação com PyCaret | AutoML e Churn](https://www.youtube.com/watch?v=88jD1nnkNfM)
+- [Classes desbalanceadas: você está fazendo errado!](https://www.youtube.com/watch?v=PwlKbdsVsiY)
+- [Otimização de hiperparâmetros: tunando seus modelos de Machine Learning](https://www.youtube.com/watch?v=oK-8tLgLZ2Q)
 
 <strong>Slides da Aula:</strong>
-- TODO
+
+- [Slides Encontro 08](https://slides.com/murilozaninidecarvalho/code)
 
 <strong>Questionários Complementares:</strong>
-- TODO
+
+- Para os estudantes que desejarem, podem tentar utilizar o PyCaret para desenvolver um modelo de Machine Learning para o dataset de sua escolha. O objetivo é que os estudantes consigam compreender como utilizar o PyCaret para desenvolver modelos de Machine Learning.
+- Estudar o algoritmo de deploy do PyCaret, estudar a forma de deployar modelos utilizando o Docker e a base fornecida pelo PyCaret.
 
 </details>
 
@@ -245,15 +255,20 @@ Espera-se também que os estudantes possam compreender a diferença entre ambien
 <summary>Encontro 09 - Deploy de Sistemas de Machine Learning e Streamlit</summary>
 <br>
 <strong>Objetivo do Encontro:</strong>
-- TODO
+
+O objetivo do encontro é realizar o deploy de modelos de Machine Learning em uma nuvem comercial. No final do encontro, espera-se que os estudantes consigam compreender como realizar o deploy de modelos de Machine Learning em uma nuvem comercial.
 
 <strong>Estudos Complementares:</strong>
-- TODO
+
+- [Deploy de modelos com Flask](https://www.youtube.com/watch?v=_KNzvVsrB8k)
+- 
 
 <strong>Slides da Aula:</strong>
-- TODO
+
+- [Slides Encontro 09](https://slides.com/murilozaninidecarvalho/code)
 
 <strong>Questionários Complementares:</strong>
+
 - TODO
 
 </details>
