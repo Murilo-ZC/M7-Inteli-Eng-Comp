@@ -261,7 +261,8 @@ O objetivo do encontro é realizar o deploy de modelos de Machine Learning em um
 <strong>Estudos Complementares:</strong>
 
 - [Deploy de modelos com Flask](https://www.youtube.com/watch?v=_KNzvVsrB8k)
-- 
+- [Gradio](https://www.gradio.app/)
+- [Streamlit](https://streamlit.io/)
 
 <strong>Slides da Aula:</strong>
 
@@ -269,7 +270,9 @@ O objetivo do encontro é realizar o deploy de modelos de Machine Learning em um
 
 <strong>Questionários Complementares:</strong>
 
-- TODO
+- Adicionar mais um modelo ao sistema de deploy. Os dois modelos devem estar acessíveis na mesma aplicação. Cada modelo deve ser acessível por um parâmetro adicional enviado a aplicação.
+- Construir um logger da aplicação. Assim, cada requisição processada deve ser armazenada no logger. O banco de dados para essa aplicação pode ser localmente desenvolvido na aplicação ou pode-se utilizar um banco Saas.
+- Tente implementar as visualizações disponíveis no ***Streamlit*** utilizando algum ***framework*** de frontend (React, Vue, Angular, Svelte, por exemplo). Neste [link](https://www.monterail.com/blog/javascript-libraries-data-visualization), são apresentadas algumas ferramentas de visualização de dados com JavaScript.
 
 </details>
 
