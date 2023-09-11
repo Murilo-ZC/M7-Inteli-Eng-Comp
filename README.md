@@ -263,6 +263,9 @@ O objetivo do encontro é realizar o deploy de modelos de Machine Learning em um
 - [Deploy de modelos com Flask](https://www.youtube.com/watch?v=_KNzvVsrB8k)
 - [Gradio](https://www.gradio.app/)
 - [Streamlit](https://streamlit.io/)
+- [Tipos de instâncias EC2: Guia de referência](https://cleancloud.io/tipos-de-instancias-ec2/)
+- [How to Select the Right EC2 Instance – A Guide to EC2 Instances and Their Capabilities](https://www.freecodecamp.org/news/how-to-select-the-right-ec2-instance/)
+- [AWS 101 - Networking Basics](https://coady.tech/aws-101-networking/)
 
 <strong>Slides da Aula:</strong>
 
