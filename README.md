@@ -268,6 +268,8 @@ O objetivo do encontro é realizar o deploy de modelos de Machine Learning em um
 - [AWS 101 - Networking Basics](https://coady.tech/aws-101-networking/)
 - [Reservar endereço de IP para instância no EC2](https://www.youtube.com/watch?v=7lselFA0YoI)
 - [Top 50+ AWS Services Explained in 10 Minutes](https://www.youtube.com/watch?v=JIbIYCM48to)
+- [How I Would Learn AWS Today (after 10 years of cloud experience)](https://www.youtube.com/watch?v=LTH9m4HkeYY)
+- [Tutorial: SSH no Terminal do Windows](https://learn.microsoft.com/pt-br/windows/terminal/tutorials/ssh?source=recommendations)
 
 <strong>Slides da Aula:</strong>
 
