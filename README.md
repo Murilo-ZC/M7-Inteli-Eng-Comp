@@ -178,7 +178,7 @@ O objetivo deste encontro é a discussão de conceitos de arquitetura de softwar
 <br>
 <strong>Objetivo do Encontro:</strong>
 
-- TODO
+- O objetivo principal do encontro é compreender a diferença entre bancos relacionais e bancos não relacionais, verificando quando cada um deles deve ser utilizado. Conhecer os tipos de bancos não relacionais existentes, com destaque para o MongoDB. Ao final do encontro, espera-se que os estudantes consigam realizar a manipulação de dados com o MongoDB.
 
 <strong>Estudos Complementares:</strong>
 
@@ -187,7 +187,8 @@ O objetivo deste encontro é a discussão de conceitos de arquitetura de softwar
 - [I tried 5 Firebase alternatives](https://www.youtube.com/watch?v=SXmYUalHyYk)
 
 <strong>Slides da Aula:</strong>
-- TODO
+
+- [Slides Encontro 06](https://slides.com/murilozaninidecarvalho/code)
 
 <strong>Questionários Complementares:</strong>
 - TODO
@@ -198,16 +199,28 @@ O objetivo deste encontro é a discussão de conceitos de arquitetura de softwar
 <summary>Encontro 07 - Nivelamento de Machine Learning</summary>
 <br>
 <strong>Objetivo do Encontro:</strong>
-- TODO
+
+O objetivo do encontro é retomar com os estudantes os principais conceitos de Machine Learning, bem como apresentar os principais algoritmos de aprendizado de máquina. Ao final do encontro, espera-se que os estudantes consigam compreender os conceitos de Machine Learning e consigam aplicar os algoritmos apresentados em problemas reais. 
+Espera-se também que os estudantes possam compreender a diferença entre ambiente de treinamento e ambiente de execução/deploy de um modelo de machine learning.
 
 <strong>Estudos Complementares:</strong>
-- TODO
+
+- [Volumes Docker](https://docs.docker.com/storage/volumes/)
+- [Imagem RapidsAI](https://hub.docker.com/r/rapidsai/rapidsai/)
+- [rapids.ai](https://rapids.ai/#quick-start)
+- [Imagem JupyterNotebook](https://hub.docker.com/r/jupyter/datascience-notebook)
+- [Catalogo de Imagens Jupyter](https://github.com/jupyter/docker-stacks)
+- [Container Toolkit NVidia](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html)
+- [Evaluation of Regression Models in scikit-learn](https://www.datacourses.com/evaluation-of-regression-models-in-scikit-learn-846/)
 
 <strong>Slides da Aula:</strong>
-- TODO
+
+- [Slides Encontro 07](https://slides.com/murilozaninidecarvalho/code)
 
 <strong>Questionários Complementares:</strong>
-- TODO
+
+- Avaliar os outros **datasets** disponibilizados na atividade ponderada, tentar realizar sua exploração.
+- Tentar implementar outros modelos, para elevar a familiaridade com o processo de deploy de modelos de machine learning.
 
 </details>
 
@@ -215,16 +228,26 @@ O objetivo deste encontro é a discussão de conceitos de arquitetura de softwar
 <summary>Encontro 08 - AutoML, Feature Engineering e Fine Tunning</summary>
 <br>
 <strong>Objetivo do Encontro:</strong>
-- TODO
+
+O objetivo deste encontro é compreender como utilizar ferramentas de AutoML para iniciar o desenvolvimento de modelos de ***Machine Learning***. Durante o encontro, será abordada a ferramenta [PyCaret](https://pycaret.org/). Ele pode ser utilizado localmente ou em ferramentas como o Google Colab. Ao final do encontro, espera-se que os estudantes consigam compreender como utilizar o PyCaret para desenvolver modelos de Machine Learning.
 
 <strong>Estudos Complementares:</strong>
-- TODO
+
+- [Docs - PyCaret 3.0](https://pycaret.gitbook.io/docs/)
+- [Github do PyCaret](https://github.com/pycaret/pycaret)
+- [PyCaret Tutorial: A beginner's guide for automating ML workflows using PyCaret](https://www.datacamp.com/tutorial/guide-for-automating-ml-workflows-using-pycaret)
+- [Classificação com PyCaret | AutoML e Churn](https://www.youtube.com/watch?v=88jD1nnkNfM)
+- [Classes desbalanceadas: você está fazendo errado!](https://www.youtube.com/watch?v=PwlKbdsVsiY)
+- [Otimização de hiperparâmetros: tunando seus modelos de Machine Learning](https://www.youtube.com/watch?v=oK-8tLgLZ2Q)
 
 <strong>Slides da Aula:</strong>
-- TODO
+
+- [Slides Encontro 08](https://slides.com/murilozaninidecarvalho/code)
 
 <strong>Questionários Complementares:</strong>
-- TODO
+
+- Para os estudantes que desejarem, podem tentar utilizar o PyCaret para desenvolver um modelo de Machine Learning para o dataset de sua escolha. O objetivo é que os estudantes consigam compreender como utilizar o PyCaret para desenvolver modelos de Machine Learning.
+- Estudar o algoritmo de deploy do PyCaret, estudar a forma de deployar modelos utilizando o Docker e a base fornecida pelo PyCaret.
 
 </details>
 
@@ -232,16 +255,31 @@ O objetivo deste encontro é a discussão de conceitos de arquitetura de softwar
 <summary>Encontro 09 - Deploy de Sistemas de Machine Learning e Streamlit</summary>
 <br>
 <strong>Objetivo do Encontro:</strong>
-- TODO
+
+O objetivo do encontro é realizar o deploy de modelos de Machine Learning em uma nuvem comercial. No final do encontro, espera-se que os estudantes consigam compreender como realizar o deploy de modelos de Machine Learning em uma nuvem comercial.
 
 <strong>Estudos Complementares:</strong>
-- TODO
+
+- [Deploy de modelos com Flask](https://www.youtube.com/watch?v=_KNzvVsrB8k)
+- [Gradio](https://www.gradio.app/)
+- [Streamlit](https://streamlit.io/)
+- [Tipos de instâncias EC2: Guia de referência](https://cleancloud.io/tipos-de-instancias-ec2/)
+- [How to Select the Right EC2 Instance – A Guide to EC2 Instances and Their Capabilities](https://www.freecodecamp.org/news/how-to-select-the-right-ec2-instance/)
+- [AWS 101 - Networking Basics](https://coady.tech/aws-101-networking/)
+- [Reservar endereço de IP para instância no EC2](https://www.youtube.com/watch?v=7lselFA0YoI)
+- [Top 50+ AWS Services Explained in 10 Minutes](https://www.youtube.com/watch?v=JIbIYCM48to)
+- [How I Would Learn AWS Today (after 10 years of cloud experience)](https://www.youtube.com/watch?v=LTH9m4HkeYY)
+- [Tutorial: SSH no Terminal do Windows](https://learn.microsoft.com/pt-br/windows/terminal/tutorials/ssh?source=recommendations)
 
 <strong>Slides da Aula:</strong>
-- TODO
+
+- [Slides Encontro 09](https://slides.com/murilozaninidecarvalho/code)
 
 <strong>Questionários Complementares:</strong>
-- TODO
+
+- Adicionar mais um modelo ao sistema de deploy. Os dois modelos devem estar acessíveis na mesma aplicação. Cada modelo deve ser acessível por um parâmetro adicional enviado a aplicação.
+- Construir um logger da aplicação. Assim, cada requisição processada deve ser armazenada no logger. O banco de dados para essa aplicação pode ser localmente desenvolvido na aplicação ou pode-se utilizar um banco Saas.
+- Tente implementar as visualizações disponíveis no ***Streamlit*** utilizando algum ***framework*** de frontend (React, Vue, Angular, Svelte, por exemplo). Neste [link](https://www.monterail.com/blog/javascript-libraries-data-visualization), são apresentadas algumas ferramentas de visualização de dados com JavaScript.
 
 </details>
 
