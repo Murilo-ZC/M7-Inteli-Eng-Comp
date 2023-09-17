@@ -287,16 +287,30 @@ O objetivo do encontro é realizar o deploy de modelos de Machine Learning em um
 <summary>Encontro 10 - Sistemas de troca de informação/mensageria</summary>
 <br>
 <strong>Objetivo do Encontro:</strong>
-- TODO
+
+O objetivo deste encontro é introduzir o conceito de mensageria e como ela pode ser utilizada para a troca de informações entre sistemas. Ao final do encontro, espera-se que os estudantes consigam compreender quando um sistema de mensageria pode ser implementado para realizar a troca de informações entre sistemas.
+
+Como principais tecnologias que serão utilizadas neste encontro, temos:
+
+- Python: linguagem de programação para implementação dos sistemas de mensageria.
+- RabbitMQ: sistema de mensageria que será utilizado para realizar a troca de informações entre os sistemas.
+- Docker: ferramenta que será utilizada para realizar executar os softwares necessários para implementar a mensageria no sistema.
+- FastAPI: framework que será utilizado para realizar o deploy dos sistemas de mensageria.
+- AWS SQS: serviço de mensageria da AWS que será utilizado para realizar a troca de informações entre os sistemas.
 
 <strong>Estudos Complementares:</strong>
+
 - TODO
 
 <strong>Slides da Aula:</strong>
-- TODO
+
+- [Slides Encontro 10](https://slides.com/murilozaninidecarvalho/code)
 
 <strong>Questionários Complementares:</strong>
-- TODO
+
+- Existem outros sistemas de mensageria que podem ser utilizados para trocar informações entre sistemas. Pesquise sobre outros sistemas de mensageria e tente implementar um sistema de mensageria utilizando outra ferramenta.
+- Depois da primeira questão complementar, você deve ter esbarrado no Kafka. AINDA NÃO TENTE IMPLEMENTAR ELE! Primeiro tente fazer a implementação utilizando o Redis.
+- Agora sim, tente implementar o sistema de mensageria utilizando o Kafka.
 
 </details>
 
