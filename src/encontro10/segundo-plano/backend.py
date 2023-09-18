@@ -2,6 +2,8 @@ from fastapi import FastAPI, UploadFile
 from fastapi.responses import FileResponse
 # from task import remove_br, sample_task, combine_bg
 from task import sample_task
+from celery_config import app as celery_app
+from celery.result import AsyncResult
 NO_BG_IMAGE_NAME = "no-bg.png"
 
 
@@ -10,8 +12,12 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    sample_task.delay()
-    return {'MESSAGE': 'Task Submitted'}
+    task_id = sample_task.apply_async()
+    return {'MESSAGE': 'Task Submitted', "TASK_ID": task_id.id}
+
+@app.get("/status/{task_id}")
+async def status(task_id):
+    return {"TASKID": task_id, "STATUS":celery_app.AsyncResult(task_id).state}
 
 @app.post("/remove_bg")
 async def remove_bg(image:UploadFile = None):
