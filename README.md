@@ -309,7 +309,7 @@ Como principais tecnologias que serão utilizadas neste encontro, temos:
 - [Vamos aprender Celery?](https://blog.4linux.com.br/vamos-aprender-celery/)
 - [Celery + RabbitMQ + FastAPI + Docker](https://blog.devops.dev/celery-rabbitmq-fastapi-docker-842d2b485d33)
 - [Async Architecture with FastAPI, Celery, and RabbitMQ](https://medium.com/cuddle-ai/async-architecture-with-fastapi-celery-and-rabbitmq-c7d029030377)
-
+- [Asynchronous Request-Reply pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/async-request-reply)
 
 <strong>Slides da Aula:</strong>
 
