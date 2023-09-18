@@ -12,10 +12,10 @@ As tecnologias utilizadas para sua construção serão:
 - FastAPI
 - HTMX | Reflex
 
-## 1. Configuração do ambiente
+## 1. Configuração do ambiente e aplicação monolítica
 
-A aplicação será desenvolvida em dois cenários distintos, o de uma aplicação monolítica e uma aplicação com microserviços.
-Vamos trabalhar primeiro com uma aplicação monolítica, para depois separar as funcionalidades em microserviços.
+A aplicação será desenvolvida em dois cenários distintos, o de uma aplicação monolítica e uma aplicação com serviços rodando em segundo plano.
+Vamos trabalhar primeiro com uma aplicação monolítica, para depois separar as funcionalidades em segundo plano.
 
 Nosso arquivo ***requirements.txt*** deve conter as seguintes dependências, para a aplicação monolítica:
 
@@ -129,3 +129,62 @@ Agora temos uma segunda rota que além de remover o fundo de uma imagem, faz sua
 
 <img src="./media/requisicao_thunder_client_com_bg.png" width=100% flex=center>
 
+Se prestarmos atenção no tempo que a requisição levou para ser concluída, podemos ver que ela levou quase 3 segundos, isso considerando que toda a aplicação está sendo executada localmente. Quando realizamos o deploy de uma aplicação, o tempo de resposta dela pode comprometer a experiência do usuário. Para resolver esse problema, podemos utilizar o Celery para executar as tarefas em segundo plano.
+
+
+## 2. Refatorando para utilizar o Celery e o RabbitMQ
+
+Vamos criar agora um diretório chamado ***segundo-plano*** e dentro dele vamos iniciar uma nova aplicação. Não esqueça de parar o ***venv*** criado na aplicação monolítica.
+
+```bash
+mkdir segundo-plano
+cd segundo-plano
+python -m venv .
+source bin/activate
+```
+
+A princípio vamos utilizar a mesma aplicação base que a aplicação monolítica, mas vamos refatorar o código para que ele possa ser executado. O arquivo de requerimentos fica um pouco diferente.
+
+```txt
+fastapi
+uvicorn
+rembg
+pillow
+python-multipart
+celery
+```
+
+Vamos criar um arquivo chamado de ***celery_config.py***, que vai conter a configuração do Celery.
+
+```python
+from celery import Celery
+import os
+
+app = Celery('celery_base',
+             broker='amqp://usuario:senha@rabbitmq:5672/vhost',
+             include=['task'])
+```
+
+Agora vamos criar um arquivo chamado ***task.py***, que vai conter a tarefa que será executada em segundo plano.
+
+```python
+from celery_config import app
+import time
+
+
+@app.task
+def sample_task():
+    for i in range(10):
+        time.sleep(5)
+    print("Task Completed")
+
+#TODO adicionar o restante
+```
+
+Agora vamos executar um container com o RabbitMQ, para que possamos utilizar o Celery.
+
+```bash
+docker run -d --hostname my-rabbit --name some-rabbit -e RABBITMQ_DEFAULT_USER=usuario -e RABBITMQ_DEFAULT_PASS=senha -e RABBITMQ_DEFAULT_VHOST=vhost -p 5672:5672 -p 8080:8080 rabbitmq:3-management
+```
+
+É possível ver o funcionamento do RabbitMQ acessando o endereço [http://localhost:8080](http://localhost:8080). As credenciais de acesso são as mesmas que foram configuradas no container.
