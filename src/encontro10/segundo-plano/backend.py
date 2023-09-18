@@ -2,9 +2,10 @@ from fastapi import FastAPI, UploadFile
 from fastapi.responses import FileResponse
 # from task import remove_br, sample_task, combine_bg
 from task import sample_task
-# from remove_bg_task import remove_bg as task_remove_bg
+from task import remove_bg
 from celery_config import app as celery_app
 from celery.result import AsyncResult
+from PIL import Image
 
 NO_BG_IMAGE_NAME = "no-bg.png"
 
@@ -19,19 +20,21 @@ async def root():
 
 @app.get("/status/{task_id}")
 async def status(task_id):
-    return {"TASKID": task_id, "STATUS":celery_app.AsyncResult(task_id).state}
+    return {"TASK_ID": task_id, "STATUS":celery_app.AsyncResult(task_id).state}
 
 @app.post("/remove_bg")
-async def remove_bg(image:UploadFile = None):
+async def remove_bg_route(image:UploadFile = None):
     if not image:
         return {"message": "No image"}
-    # task_id = task_remove_bg.apply_async((image.file))
-    # return {'MESSAGE': 'Task Submitted', "TASK_ID": task_id.id}
+    bytes_data = Image.open(image.file)
+    bytes_data.save(NO_BG_IMAGE_NAME, "PNG", optimize=True,)
+    task_id = remove_bg.delay(NO_BG_IMAGE_NAME)
+    return {'MESSAGE': 'Task Submitted', "TASK_ID": task_id.id}
 
 @app.get("/result/remove_bg/{task_id}")
 async def result_remove_bg(task_id):
-    if await celery_app.AsyncResult(task_id).ready():
-        return FileResponse(NO_BG_IMAGE_NAME)
+    if celery_app.AsyncResult(task_id).ready():
+        return FileResponse(f"./{NO_BG_IMAGE_NAME}")
 
 # @app.post("/combine_bg")
 # async def combine_bg(image:UploadFile = None, background:UploadFile = None):

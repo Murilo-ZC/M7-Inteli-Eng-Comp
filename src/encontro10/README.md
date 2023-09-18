@@ -3,14 +3,12 @@
 Ao longo deste encontro, vamos desenvolver uma aplicação que remove o fundo de uma imagem e faz a sua combinação com a imagem de fundo, também enviada pelo usuário.
 
 As tecnologias utilizadas para sua construção serão:
-- AWS SQS
 - RabbitMQ
 - OpenCV, Pillow e REMBG (Python)
 - Python
 - Docker
 - Celery
 - FastAPI
-- HTMX | Reflex
 
 ## 1. Configuração do ambiente e aplicação monolítica
 
@@ -161,7 +159,9 @@ from celery import Celery
 import os
 
 app = Celery('celery_base',
-             broker='amqp://usuario:senha@rabbitmq:5672/vhost',
+             broker='amqp://usuario:senha@localhost:5672/vhost',
+             backend='rpc://',
+             persistent=True,
              include=['task'])
 ```
 
@@ -170,7 +170,6 @@ Agora vamos criar um arquivo chamado ***task.py***, que vai conter a tarefa que 
 ```python
 from celery_config import app
 import time
-
 
 @app.task
 def sample_task():
@@ -184,7 +183,119 @@ def sample_task():
 Agora vamos executar um container com o RabbitMQ, para que possamos utilizar o Celery.
 
 ```bash
-docker run -d --hostname my-rabbit --name some-rabbit -e RABBITMQ_DEFAULT_USER=usuario -e RABBITMQ_DEFAULT_PASS=senha -e RABBITMQ_DEFAULT_VHOST=vhost -p 5672:5672 -p 8080:8080 rabbitmq:3-management
+docker run -d --hostname my-rabbit --name some-rabbit -e RABBITMQ_DEFAULT_USER=usuario -e RABBITMQ_DEFAULT_PASS=senha -e RABBITMQ_DEFAULT_VHOST=vhost -p 5672:5672 rabbitmq:3-management
 ```
 
-É possível ver o funcionamento do RabbitMQ acessando o endereço [http://localhost:8080](http://localhost:8080). As credenciais de acesso são as mesmas que foram configuradas no container.
+Agora vamos ter o RabbitMQ sendo executado na porta 5672, com o usuário ***usuario***, senha ***senha*** e vhost ***vhost***. Assim, podemos colocar nossa aplicação rodando no sistema operacional e o RabbitMQ em um container.
+
+Agora vamos criar um arquivo chamado ***backend.py***, que vai conter a aplicação FastAPI.
+
+```python
+from fastapi import FastAPI, UploadFile
+from fastapi.responses import FileResponse
+from task import sample_task
+from task import remove_bg
+from celery_config import app as celery_app
+from celery.result import AsyncResult
+from PIL import Image
+
+NO_BG_IMAGE_NAME = "no-bg.png"
+
+
+app = FastAPI()
+
+
+@app.get("/")
+async def root():
+    task_id = sample_task.apply_async()
+    return {'MESSAGE': 'Task Submitted', "TASK_ID": task_id.id}
+
+@app.get("/status/{task_id}")
+async def status(task_id):
+    return {"TASK_ID": task_id, "STATUS":celery_app.AsyncResult(task_id).state}
+
+@app.post("/remove_bg")
+async def remove_bg_route(image:UploadFile = None):
+    if not image:
+        return {"message": "No image"}
+    bytes_data = Image.open(image.file)
+    bytes_data.save(NO_BG_IMAGE_NAME, "PNG", optimize=True,)
+    task_id = remove_bg.delay(NO_BG_IMAGE_NAME)
+    return {'MESSAGE': 'Task Submitted', "TASK_ID": task_id.id}
+
+@app.get("/result/remove_bg/{task_id}")
+async def result_remove_bg(task_id):
+    if celery_app.AsyncResult(task_id).ready():
+        return FileResponse(f"./{NO_BG_IMAGE_NAME}")
+
+# @app.post("/combine_bg")
+# async def combine_bg(image:UploadFile = None, background:UploadFile = None):
+#     if not image or not background:
+#         return {"message": "No image or no background"}
+#     if remove_br(image.file):
+#         try:
+#             bytes_data = Image.open(NO_BG_IMAGE_NAME)
+#             bg = Image.open(background.file)
+#             bg.paste(bytes_data, (bg.width//2, bg.height//2), bytes_data)
+#             bg.save(NO_BG_IMAGE_NAME, "JPEG", optimize=True,)
+#             return FileResponse(NO_BG_IMAGE_NAME)
+#         except Exception as e:
+#             print(e)
+#             return {"message": "Error"}
+#     return {"message": "Error"}
+
+
+```
+
+Vamos executar nosso Worker para ele possa executar as tarefas em segundo plano.
+
+```bash
+python -m celery -A celery_config worker --loglevel=info --pool=solo
+```
+
+E para o arquivo ***task.py***:
+
+```python
+from PIL import Image
+from rembg import remove
+from celery_config import app
+import time
+from fastapi.responses import FileResponse
+from fastapi import FastAPI, UploadFile
+
+NO_BG_IMAGE_NAME = "no-bg.png"
+
+@app.task
+def remove_bg(image):
+    try:
+        bytes_data = Image.open(image)
+        output = remove(bytes_data)
+        Image.frombytes("RGBA", output.size, output.tobytes()).save(NO_BG_IMAGE_NAME)
+        print("DONE")
+        # return True
+    except Exception as e:
+        print(e)
+        # return False
+    
+@app.task
+def sample_task():
+    for i in range(10):
+        time.sleep(5)
+    print("Task Completed")
+
+# @app.task
+# async def combine_bg(image:UploadFile = None, background:UploadFile = None):
+#     if not image or not background:
+#         return {"message": "No image or no background"}
+#     if remove_br(image.file):
+#         try:
+#             bytes_data = Image.open(NO_BG_IMAGE_NAME)
+#             bg = Image.open(background.file)
+#             bg.paste(bytes_data, (bg.width//2, bg.height//2), bytes_data)
+#             bg.save(NO_BG_IMAGE_NAME, "JPEG", optimize=True,)
+#             return FileResponse(NO_BG_IMAGE_NAME)
+#         except Exception as e:
+#             print(e)
+#             return {"message": "Error"}
+#     return {"message": "Error"}
+```
