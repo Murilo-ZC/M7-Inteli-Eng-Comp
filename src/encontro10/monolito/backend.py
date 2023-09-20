@@ -38,8 +38,10 @@ async def combine_bg(image:UploadFile = None, background:UploadFile = None):
         try:
             bytes_data = Image.open(NO_BG_IMAGE_NAME)
             bg = Image.open(background.file)
-            bg.paste(bytes_data, (bg.width//2, bg.height//2), bytes_data)
-            bg.save(NO_BG_IMAGE_NAME, "JPEG", optimize=True,)
+            # bg.resize(512,512)
+            # bytes_data.resize(512,512)
+            bg.paste(bytes_data, (bg.width//2 - bytes_data.width//2, bg.height - bytes_data.height), bytes_data)
+            bg.save(NO_BG_IMAGE_NAME, "PNG", optimize=True,)
             return FileResponse(NO_BG_IMAGE_NAME)
         except Exception as e:
             print(e)

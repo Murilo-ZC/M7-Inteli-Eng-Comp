@@ -328,16 +328,28 @@ Como principais tecnologias que serão utilizadas neste encontro, temos:
 <summary>Encontro 11 - Integração de Dados (API) com o Front</summary>
 <br>
 <strong>Objetivo do Encontro:</strong>
-- TODO
+
+Este encontro possui alguns objetivos específicos:
+- Compreender como construir uma API para servir os dados
+- Compreeender como consumir uma API com o frontend
+- Construir uma aplicação utilizando o Streamlit
+- Realizar o deploy da aplicação da API e da interface
+- Implementar um controle de usuário simples com o Streamlit e o RDS
 
 <strong>Estudos Complementares:</strong>
 - TODO
 
 <strong>Slides da Aula:</strong>
-- TODO
+
+- [Slides Encontro 11](https://slides.com/murilozaninidecarvalho/code)
 
 <strong>Questionários Complementares:</strong>
-- TODO
+
+- Além do Apache Webserver, como você faria a implementação do serviço utilizando outro servidor Web, como o Nginx?
+- Além do Streamlit, qual outra ferramenta você utilizaria para implementar a interface?
+- Se não fosse utilizando o Python, qual outra ferramenta de frontend você utilizaria para implementar a interface?
+- Além da implementação utilizando EC2, como realizar essa implementação das funcionalidades utilizando containers?
+- Além dos EC2 e dos containers, é possível realizar alguma destas implementações utilizando o AWS Lambda?
 
 </details>
 
