@@ -337,7 +337,13 @@ Este encontro possui alguns objetivos específicos:
 - Implementar um controle de usuário simples com o Streamlit e o RDS
 
 <strong>Estudos Complementares:</strong>
-- TODO
+
+- [Streamlit](https://streamlit.io/)
+- [Doc Streamlit](https://docs.streamlit.io/)
+- [Solara](https://solara.dev/)
+- [Create,Connect,Configure Postgres on AWS Successfully with Python](https://dev.to/aws-builders/createconnectconfigure-postgres-on-aws-successfully-with-python-km)
+- [streamlit-extras gallery](https://extras.streamlit.app/)
+- [PlaceKitten](https://placekitten.com/)
 
 <strong>Slides da Aula:</strong>
 
