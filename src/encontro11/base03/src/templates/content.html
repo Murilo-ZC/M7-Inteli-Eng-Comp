@@ -8,7 +8,7 @@
 <body onload="save_and_load_token()">
     <h1>Conteúdo Secreto</h1>
     <img src="https://picsum.photos/300" width="300" height="300"/>
-    <p>Another? <a href="http://localhost:5000/content">Get Here</a></p>
+    <p>Another? <a href="http://34.207.192.12/content">Get Here</a></p>
     <script>
         async function save_and_load_token(){
             //Pega os cookies da página
@@ -18,12 +18,12 @@
                 localStorage.setItem("jwt-token", myCookie)
             }
             else if(!localStorage.getItem("jwt-token")){
-                window.location.href = "http://localhost:5000/error"
+                window.location.href = "http://34.207.192.12/error"
             }
             else{
                 myCookie = localStorage.getItem("jwt-token")
                 browser.cookies.set({
-                    url: "http://localhost:5000",
+                    url: "http://34.207.192.12",
                     name: "token",
                     value: myCookie
                 })
