@@ -1,5 +1,6 @@
 import urllib.parse
 import boto3
+import requests
 
 def handler(event, context):
     try:
@@ -10,6 +11,8 @@ def handler(event, context):
         print(f"[TESTE-ELISA-MURILO]: Bucket :{bucket} key_prefix: {key_prefix}")
         response = s3.get_object(Bucket=bucket, Key=key_prefix)
         s3.put_object(Bucket=f'{bucket}', Key=f'teste/{key_prefix}.okok', Body=response['Body'].read())
+        resposta = requests.get("http://3.81.163.206/teste-lambda")
+        print(f"[TESTE-ELISA-MURILO]: Resposta da requisição: {resposta.text}")
         print(f"[TESTE-ELISA-MURILO]: Fim da Execução")
         return {'message':'deu bom'}
     except Exception as e:

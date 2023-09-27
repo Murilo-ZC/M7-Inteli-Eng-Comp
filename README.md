@@ -363,16 +363,20 @@ Este encontro possui alguns objetivos específicos:
 <summary>Encontro 12 - Introdução as Séries Temporais</summary>
 <br>
 <strong>Objetivo do Encontro:</strong>
-- TODO
+
+- O objetivo principal deste encontro é apresentar os conceitos principais de series temporais e como elas podem ser tratadas. Os componentes principais de uma série temporal serão apresentados, bem como os principais modelos de previsão de séries temporais. Ao final do encontro, espera-se que os estudantes consigam compreender os conceitos de séries temporais e consigam aplicar os modelos de previsão de séries temporais.
 
 <strong>Estudos Complementares:</strong>
 
 - [How to Create an ARIMA Model for Time Series Forecasting in Python](https://machinelearningmastery.com/arima-for-time-series-forecasting-with-python/)
 - [ARIMA Model – Complete Guide to Time Series Forecasting in Python](https://www.machinelearningplus.com/time-series/arima-model-time-series-forecasting-python/)
 - [ARIMA Model for Time Series Forecasting](https://www.kaggle.com/code/prashant111/arima-model-for-time-series-forecasting)
+- [What is Time Series Analysis?](https://www.youtube.com/watch?v=GE3JOFwTWVM)
+- [Time Series Forecasting with Machine Learning](https://www.youtube.com/watch?v=_ZQ-lQrK9Rg)
 
 <strong>Slides da Aula:</strong>
-- TODO
+
+- [Slides Encontro 12](https://slides.com/murilozaninidecarvalho/code)
 
 <strong>Questionários Complementares:</strong>
 - TODO
