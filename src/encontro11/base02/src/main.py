@@ -9,7 +9,7 @@ from flask_jwt_extended import JWTManager, set_access_cookies
 
 app = Flask(__name__, template_folder="templates")
 # configure the SQLite database, relative to the app instance folder
-app.config["SQLALCHEMY_DATABASE_URI"] = "postgresql://postgres:admin123@meu-banco-inteli.cfvwnbheadff.us-east-1.rds.amazonaws.com:5432/postgres"
+app.config["SQLALCHEMY_DATABASE_URI"] = "postgresql://postgres:admin123@banco-dados-encontro-11.cfvwnbheadff.us-east-1.rds.amazonaws.com:5432/postgres"
 # initialize the app with the extension
 db.init_app(app)
 # Setup the Flask-JWT-Extended extension

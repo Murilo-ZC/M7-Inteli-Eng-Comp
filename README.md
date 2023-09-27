@@ -382,6 +382,7 @@ Este encontro possui alguns objetivos específicos:
 - [Metrics to Evaluate your Classification Model to take the right decisions](https://www.analyticsvidhya.com/blog/2021/07/metrics-to-evaluate-your-classification-model-to-take-the-right-decisions/#h-auc-roc)
 - [Time Series Analysis with Facebook Prophet: How it works and How to use it](https://towardsdatascience.com/time-series-analysis-with-facebook-prophet-how-it-works-and-how-to-use-it-f15ecf2c0e3a)
 - [Prophet - Python API](https://facebook.github.io/prophet/docs/quick_start.html#python-api)
+- [MAE, MSE, RMSE, Coefficient of Determination, Adjusted R Squared — Which Metric is Better?](https://medium.com/analytics-vidhya/mae-mse-rmse-coefficient-of-determination-adjusted-r-squared-which-metric-is-better-cd0326a5697e)
 
 <strong>Slides da Aula:</strong>
 
