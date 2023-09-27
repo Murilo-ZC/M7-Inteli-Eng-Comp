@@ -373,13 +373,24 @@ Este encontro possui alguns objetivos específicos:
 - [ARIMA Model for Time Series Forecasting](https://www.kaggle.com/code/prashant111/arima-model-for-time-series-forecasting)
 - [What is Time Series Analysis?](https://www.youtube.com/watch?v=GE3JOFwTWVM)
 - [Time Series Forecasting with Machine Learning](https://www.youtube.com/watch?v=_ZQ-lQrK9Rg)
+- [Precision and recall](https://en.wikipedia.org/wiki/Precision_and_recall)
+- [How to evaluate ML models | Evaluation metrics for machine learning](https://www.youtube.com/watch?v=LbX4X71-TFI)
+- [Métricas de Avaliação: acurácia, precisão, recall… quais as diferenças?](https://vitorborbarodrigues.medium.com/métricas-de-avaliação-acurácia-precisão-recall-quais-as-diferenças-c8f05e0a513c)
+- [Tradeoff entre precisão e recall: explorando o output de seu modelo de classificação](https://medium.com/datarisk-io/tradeoff-entre-precisão-e-recall-explorando-o-output-de-seu-modelo-de-classificação-bd1694111033)
+- [CatBoost](https://catboost.ai/en/docs/)
+- [F1 Score in Machine Learning: Intro & Calculation](https://www.v7labs.com/blog/f1-score-guide#:~:text=for%20Machine%20Learning-,What%20is%20F1%20score%3F,prediction%20across%20the%20entire%20dataset.)
+- [Metrics to Evaluate your Classification Model to take the right decisions](https://www.analyticsvidhya.com/blog/2021/07/metrics-to-evaluate-your-classification-model-to-take-the-right-decisions/#h-auc-roc)
+- [Time Series Analysis with Facebook Prophet: How it works and How to use it](https://towardsdatascience.com/time-series-analysis-with-facebook-prophet-how-it-works-and-how-to-use-it-f15ecf2c0e3a)
+- [Prophet - Python API](https://facebook.github.io/prophet/docs/quick_start.html#python-api)
 
 <strong>Slides da Aula:</strong>
 
 - [Slides Encontro 12](https://slides.com/murilozaninidecarvalho/code)
 
 <strong>Questionários Complementares:</strong>
-- TODO
+
+- Para modelos de regressão, quais métricas podem ser utilizadas para avaliação dos modelos?
+- Quais não as formas de registrar os logs de uma aplicação?
 
 </details>
 
