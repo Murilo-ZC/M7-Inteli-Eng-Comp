@@ -396,7 +396,7 @@ Este encontro possui alguns objetivos específicos:
 </details>
 
 <details>
-<summary><h1>Encontro 13 - Desenvolvimento Assistido </h1></summary>
+<summary>Encontro 13 - Desenvolvimento Assistido</summary>
 <br>
 <strong>Objetivo do Encontro:</strong>
 - TODO
