@@ -10,7 +10,7 @@ import TabItem from '@theme/TabItem';
 
 # Introdução ao Módulo
 
-Bem vindos ao módulo 7 de Engenharia de Computação!
+Bem vindos ao módulo 7 de Engenharia de Computação - ***Sistema de manutenção preditiva com IA e arquitetura em nuvem***.
 
 <img class="image-intro" src="https://i.pinimg.com/originals/e8/4e/db/e84edb279472c7ab49e97ec276d4ffda.gif" style={{ display: 'block', marginLeft: 'auto', maxHeight: '40vh', marginRight: 'auto' }}/>
 
