@@ -10,9 +10,9 @@ import TabItem from '@theme/TabItem';
 
 # Introdução ao Módulo
 
-Bem vindos ao módulo 10 de Engenharia de Computação!
+Bem vindos ao módulo 7 de Engenharia de Computação!
 
-<img class="image-intro" src="https://i.chzbgr.com/full/6878320384/h35E39463/ghost-types-have-the-most-fun" style={{ display: 'block', marginLeft: 'auto', maxHeight: '40vh', marginRight: 'auto' }}/>
+<img class="image-intro" src="https://i.pinimg.com/originals/e8/4e/db/e84edb279472c7ab49e97ec276d4ffda.gif" style={{ display: 'block', marginLeft: 'auto', maxHeight: '40vh', marginRight: 'auto' }}/>
 
 
 Ao longo deste módulo, vamos discutir sobre alguns conceitos principais:
