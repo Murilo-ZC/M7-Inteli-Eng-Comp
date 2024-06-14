@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: Encontro 10 - Docker
+title: Encontro 11 - Datawarehouse e Pipeline de treinamento
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

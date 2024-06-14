@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: Encontro 10 - Docker
+title: Encontro 06 - LSTM - Long Short Term Memory
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

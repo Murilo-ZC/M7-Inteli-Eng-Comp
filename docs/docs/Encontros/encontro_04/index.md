@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: Encontro 10 - Docker
+title: Encontro 04 - Revisão sobre deep learning e problema para redes recorrentes
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

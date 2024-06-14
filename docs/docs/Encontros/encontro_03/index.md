@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: Encontro 10 - Docker
+title: Encontro 03 - Introdução a series temporais, apresentar um método de regressão com séries temporais
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

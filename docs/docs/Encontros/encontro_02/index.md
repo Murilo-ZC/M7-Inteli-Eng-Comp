@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: Encontro 10 - Docker
+title: Encontro 02 - Como trabalhar com datasets desbalanceados, validação cruzada, autoML e métricas de avaliação de modelos
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

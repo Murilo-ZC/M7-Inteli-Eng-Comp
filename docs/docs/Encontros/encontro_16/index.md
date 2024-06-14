@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: Encontro 10 - Docker
+title: Encontro 16 - Preparação e intregáveis
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

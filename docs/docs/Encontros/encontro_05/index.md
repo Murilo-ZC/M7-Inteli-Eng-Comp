@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: Encontro 10 - Docker
+title: Encontro 05 - PyTorch (Ferramentas de Implementação de DeepLearning)
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

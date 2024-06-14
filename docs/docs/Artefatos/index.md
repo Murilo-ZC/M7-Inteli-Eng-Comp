@@ -1,5 +1,6 @@
 ---
-slug: /secres/artefatos-resumo-objetivos
+sidebar_position: 2
+title: Artefatos
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

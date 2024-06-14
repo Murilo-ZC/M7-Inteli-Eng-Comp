@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: Encontro 10 - Docker
+title: Encontro 07 - GRU - Gated Recurrent Unit
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
