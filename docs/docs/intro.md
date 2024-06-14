@@ -17,14 +17,15 @@ Bem vindos ao módulo 7 de Engenharia de Computação - ***Sistema de manutenç�
 
 Ao longo deste módulo, vamos discutir sobre alguns conceitos principais:
 
-- **Desenvolvimento de Aplicativos Híbridos**;
-- **Aprofundamento de Desenvolvimento de Aplicações Backend**;
-- **Aprofundamento de Aplicações Escaláveis**.
+- **Machine Learning**;
+- **Séries Temporais**;
+- **Arquitetura de Software**;
+- **Fundamentos de solução em Cloud**;
 
 Além destes tópicos, vamos abordar outras técnicas e ferramentas que são essenciais para o desenvolvimento de aplicações modernas.
-No material, você encontrará diversos exemplos práticos e exercícios para fixação do conteúdo. Ao longo do módulo, nos encontros, vamos desenvolver juntos um projeto prático que engloba todos os conceitos abordados.
+No material, você encontrará diversos exemplos práticos e exercícios para fixação do conteúdo. 
 
-Vamos lá! 🚀
+Vamos lá! 🐼
 
 ## Avisos Importantes
 
@@ -42,17 +43,17 @@ Esse material NÃO substitui de forma alguma o uso da Adalove. Você DEVE entrar
 
 Nosso material está organizado da seguinte maneira:
 
-- `Artefatos`: Nesta seção, você encontrará os artefatos que serão desenvolvidos ao longo do módulo. Cada artefato possui um conjunto de atividades que devem ser realizadas para a sua conclusão. Em caso de dúvidas, procurar o professor [Orientador](mailto:rafael.matsuyama@prof.inteli.edu.br).
+- `Artefatos`: Nesta seção, você encontrará os artefatos que serão desenvolvidos ao longo do módulo. Cada artefato possui um conjunto de atividades que devem ser realizadas para a sua conclusão. Em caso de dúvidas, procurar o professor [Orientador](mailto:murilo.zanini@prof.inteli.edu.br).
 
 - `Encontros`: Nesta seção, você encontrará o cronograma de encontros do módulo. Em cada encontro, serão abordados tópicos específicos do módulo, com o objetivo de fixar o conteúdo e desenvolver o projeto.
 
-- `Code`: Nesta seção, exemplos outros de código poderão ser encontrados. Os exemplos de código que forem desenvolvidos em sala de aula também estão disponíveis nesta seção.
+
 
 :::tip[Sistema Operacional Recomendado]
 
 Pessoal ao longo do módulo, o sistema operacional utilizado `oficialmente` será o Ubuntu Linux 22.04 LTS. RECOMENDO FORTEMENTE que você iniciem com um `clean install` do Ubuntu. Caso você não tenha um microsd com o Ubuntu, ou esteja utilizando outro sistema operacional, recomendo pegar um cartão no laboratório e realizar a instalação padrão.
 
-<img class="image-intro" src="https://i.redd.it/b46pa4y8pf681.gif" style={{ display: 'block', marginLeft: 'auto', maxHeight: '40vh', marginRight: 'auto' }}/>
+<img class="image-intro" src="https://64.media.tumblr.com/aefc0fa20da07843ef8ce5db9271513b/e6d7f259c430d198-6b/s540x810/c35f214dc733fda5f9fe182f143296fcf189a6c2.gif" style={{ display: 'block', marginLeft: 'auto', maxHeight: '40vh', marginRight: 'auto' }}/>
 
 :::
 
@@ -62,102 +63,122 @@ Aqui estão listas nossas referências bibliográficas para o módulo. É import
 
 ### Bibliográfia Básica
 
-- [`BOTREL, S. Fusões e aquisições. 5. ed. São Paulo: Saraiva, 2017.`](https://integrada.minhabiblioteca.com.br/#/books/9788547222253)
+- [`BARRETO, J. dos S. et al. Interface humano-computador. Porto Alegre: SAGAH, 2018.`](https://integrada.minhabiblioteca.com.br/#/books/9788595027374)
 
-  O livro oferece uma cobertura abrangente do tema "Fusões e Aquisições", adota uma abordagem prática, está contextualizado no cenário jurídico e é escrito por um autor especializado na área. Utilizando esse livro no curso, os estudantes podem obter uma compreensão sólida dos princípios e práticas relacionados a fusões e aquisições.
+ Este livro apresenta os principais conceitos para a construção de interface com computadores e sistemas computadorizados.
 
-- [`CARTER, L. H. Persuasão: convencendo os outros quando fatos parecem não ter importância. Rio de Janeiro: Alta Books, 2020.`](https://integrada.minhabiblioteca.com.br/books/9786555202373)
+- [`BRAGA FILHO, W. Fenômenos de transporte para engenharia. 2. ed. Rio de Janeiro: LTC, 2012.`](https://integrada.minhabiblioteca.com.br/#/books/978-85-216-2079-2)
 
-  Em um contexto onde os fatos importam menos do que opiniões, este livro descreve como se relacionar com pessoas que têm vieses diferentes do comunicador, considerando aspectos éticos e também a eficácia da comunicação. 
+  Livro essencial para os estudantes, pois apresenta de forma clara e didática os conceitos e técnicas fundamentais da transferência de massa, calor e momento. O volume abrange desde os princípios básicos até aplicações práticas, fornecendo uma visão abrangente e aplicada dos fenômenos de transporte.
 
-- [`DORNELAS, J. Plano de negócios: exemplos práticos. 3. ed. Barueri: Atlas, 2023.`](https://integrada.minhabiblioteca.com.br/#/books/9786559774753)
+- [`EDMONDSON, A. C. A Organização sem medo. Rio de Janeiro: Alta Books, 2020.`](https://integrada.minhabiblioteca.com.br/#/books/9786555204087)
 
-  Este livro oferece exemplos práticos de planos de negócios bem-sucedidos, fornecendo explicações detalhadas e comentários sobre cada seção, desde a concepção da ideia até a análise financeira. Destaca dicas e pontos de atenção para facilitar a compreensão e apresenta informações-chave para ajudar na criação de um plano de negócios completo.
+  Este livro é a principal referência na descrição do conceito de segurança psicológica. Nele, a autora descreve a importância da construção de confiança entre os membros de um time comprometido com a performance e com as pessoas.
 
-- [`FERREIRA, A. G. Interface de programação de aplicações (API) e web services. São Paulo: Platos Soluções Educacionais S.A., 2021.`](https://integrada.minhabiblioteca.com.br/#/books/9786553560338)
+- [`FACELI, K.; LORENA, A. C.; GAMA, J.; et al. Inteligência artificial: uma abordagem de aprendizado de máquina. 2. ed. Rio de Janeiro: LTC, 2023.`] (https://integrada.minhabiblioteca.com.br/#/books/9788521637509)
 
-  Esta obra oferece uma visão abrangente e atualizada sobre APIs e web services, fundamentais para a construção de aplicações modernas e interconectadas. Com sua abordagem prática e foco em tecnologias emergentes, o livro prepara os estudantes para projetar, implementar e gerenciar APIs eficientes, um conhecimento crucial na era digital, onde a interoperabilidade e a comunicação entre diferentes sistemas e plataformas são essenciais para o sucesso de qualquer aplicação de software.
+  Este livro traz uma abordagem clássica sobre o aprendizado de máquina, apresentando os principais conceitos e algoritmos utilizados no aprendizado de máquinas.
 
-- [`HANSON, J. R. Agente de influência. Rio de Janeiro: Alta Books, 2020.`](https://integrada.minhabiblioteca.com.br/#/books/9788550816883)
+- [`GARRISON, R. H.; NOREEN, E. W.; BREWER, P. C. Contabilidade gerencial. 14. ed. Porto Alegre: AMGH, 2013.`](https://integrada.minhabiblioteca.com.br/#/books/9788580551624)
 
-  As táticas de influência são ferramentas poderosas para garantir o sucesso de uma organização, venda ou relacionamento. Este livro descreve esses passos a partir de um estado do processo utilizado pela CIA na persuasão de pessoas. 
+  A contabilidade gerencial é instrumento essencial para a análise das necessidades internas de qualquer organização e por meio dela, obtemos as informações necessárias para os planos de ação, as atividades de controle e as tomadas de decisão. Esse livro mostra como coletar e interpretar as informações contábeis e apresenta novas ferramentas didáticas para auxiliar o estudo.
 
-- [`LAMOUNIER, S. M. D. Teste e inspeção de software: técnicas e automatização. São Paulo: Platos Soluções Educacionais S.A., 2021.`](https://integrada.minhabiblioteca.com.br/#/books/9786589881940)
-  
-  O livro aborda de maneira detalhada as metodologias e práticas de teste e inspeção de software, um aspecto crítico no ciclo de desenvolvimento de software moderno. A ênfase na automatização dos testes é particularmente relevante, refletindo as tendências atuais da indústria de tecnologia e preparando os estudantes para enfrentar os desafios associados à garantia de qualidade e eficiência em ambientes de desenvolvimento ágeis e em constante evolução. 
+- [`GIL, A. C. Como fazer pesquisa qualitativa. 1. ed. Barueri: Atlas, 2021.`](https://integrada.minhabiblioteca.com.br/#/books/9786559770496)
 
-- [`LIMA, A. F. de. Design de produto. São Paulo: Platos Soluções Educacionais S.A., 2021.`](https://integrada.minhabiblioteca.com.br/#/books/9786589965701)
+  Este livro apresenta em detalhes como desenvolver uma pesquisa qualitativa, suas etapas e boas práticas, apresentados o método qualitativo e seus respectivos métodos de pesquisa e aplicações.
 
-  É uma ótima referência para pesquisa, proporcionando insights teóricos e práticos essenciais no campo do design de produtos. A autora oferece uma perspectiva atualizada e inovadora sobre o assunto, abordando desde os princípios fundamentais até a aplicação no mercado contemporâneo.
+- [`JUNIOR, O. da S. Análise e modelagem preditiva. São Paulo: Platos Soluções Educacionais S.A., 2021.`](https://integrada.minhabiblioteca.com.br/#/books/9786589881063)
 
-- [`MORAIS, M. S. de F. et al. Fundamentos de desenvolvimento mobile. Porto Alegre: SAGAH, 2022.` ](https://integrada.minhabiblioteca.com.br/#/books/9786556903057)
+  O livro apresenta os principais conceitos e técnicas para a realização de análise e modelagem preditiva em diferentes áreas do conhecimento. Com uma abordagem prática e didática, o livro apresenta desde os conceitos básicos até técnicas mais avançadas, abrangendo temas como regressão linear, séries temporais, árvores de decisão, redes neurais, entre outros.
 
-  Abordando o framework Flutter e a linguagem Dart, ferramentas essenciais para a criação de aplicativos multiplataforma, este livro oferece um conhecimento profundo não apenas sobre a técnica de desenvolvimento, mas também sobre as especificidades dos principais sistemas operacionais móveis, como iOS e Android. Com a leitura deste livro, os estudantes ganharão habilidades valiosas para atender às crescentes demandas do mercado de desenvolvimento móvel, equipando-os para produzir produtos confiáveis e inovadores que atendam às expectativas dos consumidores em um ambiente de alta competitividade tecnológica.
+- [`LIVI, C. P. Fundamentos de fenômenos de transporte: um texto para cursos básicos. 2. ed. Rio de Janeiro: LTC, 2012.`](https://integrada.minhabiblioteca.com.br/#/books/978-85-216-2145-4)
 
-- [`PHILLIPS, P. L. Briefing: a gestão do projeto de design. São Paulo: Blucher, 2017.`](https://integrada.minhabiblioteca.com.br/#/books/9788521209522)
+  Este livro apresenta de forma clara e didática os conceitos e técnicas fundamentais da transferência de massa, calor e momento. O volume abrange desde os princípios básicos até aplicações práticas, fornecendo uma visão abrangente e aplicada dos fenômenos de transporte.
 
-  O livro é uma leitura indispensável para profissionais de comunicação, publicidade e design. Em sua segunda edição, publicada em 2017, o autor aborda de forma abrangente e prática a importância do briefing como ferramenta essencial no processo criativo e na efetividade das estratégias de comunicação.
+- [`MÁLAGA, F. K. Análise de demonstrativos financeiros e da performance empresarial: para empresas não financeiras. São Paulo: Saint Paul Publishing, 2017.`](https://integrada.minhabiblioteca.com.br/#/books/9788580041330)
 
-- [`REIS, E. V. de A. Startups: análise de estruturas societárias e de investimento no Brasil. 2. ed. São Paulo: Almedina, 2022.`](https://integrada.minhabiblioteca.com.br/#/books/9786556277134)
-  
-  Este livro examina as estruturas societárias e contratuais mais comuns no Brasil para a constituição e o investimento em startups, destacando suas características, pontos de atenção, motivos para utilização e o momento mais apropriado para cada estrutura. Os tipos societários discutidos incluem sociedades limitadas, anônimas e em conta de participação. As estruturas de investimento abordadas englobam a aquisição de participação societária, mútuo conversível, debêntures conversíveis, opção de compra e contrato de participação.
+  O entendimento contábil e da performance empresarial com base na análise das demonstrações financeiras é fator crucial para se obter êxito na gestão de empresas e no mercado de capitais. A evolução desse mercado tornou a emissão de ações ou de títulos de crédito uma alternativa viável na captação de recursos pelas empresas no mercado de capitais.
 
-- [`SILVA, L. F.; RIVA, A. D.; ROSA, G. A.; et al. Banco de dados não relacional. Porto Alegre: SAGAH, 2021.`](https://integrada.minhabiblioteca.com.br/#/books/9786556901534)
+- [`MILANI, A. M. P. et al. Visualização de dados. 1. ed. Porto Alegre: SAGAH, 2020.`](https://integrada.minhabiblioteca.com.br/#/books/9786556900278)
 
-  Este guia prático oferece uma referência completa sobre os bancos de dados NoSQL, abordando suas classificações, contextos de uso, características e tipos de dados. Leitura essencial para entender e aproveitar as vantagens dos bancos de dados não relacionais na era dos grandes volumes de dados.
+  No contexto atual em que vivemos, o uso de dados nos mais diversos âmbitos é uma realidade cada vez mais frequente. No entanto, os dados de nada servem se não puderem ser visualizados e acessados de forma compreensível. Pensando nisso, este livro mostra diferentes formas de processamento, análise e apresentação de dados para que o estudante esteja apto a utilizá-los da forma mais proveitosa possível.
 
-### Bibliográfia Complementar
+- [`MISSEL, S. Feedback corporativo: como saber se está indo bem. 2. ed. São Paulo: Benvirá, 2017.`](https://integrada.minhabiblioteca.com.br/books/9788557170322)
 
-- [`ARRUDA, A. J. V. Design e inovação social. São Paulo: Blucher, 2017.`](https://integrada.minhabiblioteca.com.br/#/books/9788580392647)
+  Este livro analisa e descreve como o feedback pode ser utilizado em organizações e em processos de avaliação, dando subsídios para os estudantes conheçam essa ferramenta de desenvolvimento pessoal e organizacional. 
 
-  Este livro explora como o design pode ser utilizado como ferramenta para promover a inovação social e o desenvolvimento sustentável. Ao apresentar estudos de caso e teorias, a obra ajuda a entender como o design pode transcender a estética e funcionar como agente transformador da sociedade.
+- [`NETTO, A.; MACIEL, F. Python para Data Science e Machine Learning: descomplicado. Rio de Janeiro: Alta Books, 2021.`](https://integrada.minhabiblioteca.com.br/#/books/9786555203172)
 
-- [`BEST, K. Fundamentos de gestão de design. Porto Alegre: Bookman, 2012.`](https://integrada.minhabiblioteca.com.br/#/books/9788540701472)
+  Este livro é uma excelente escolha para aprender Python aplicado a análise de dados e machine learning. Com uma abordagem prática, o livro cobre desde conceitos básicos até tópicos avançados como redes neurais e deep learning.
 
-  O livro é uma obra imprescindível para profissionais e estudantes que desejam compreender e aplicar os princípios de gestão no contexto do design. Com uma abordagem clara e abrangente, a autora apresenta os fundamentos teóricos e práticos da gestão de design, destacando sua importância estratégica para empresas e organizações.
+- [`PRESSMAN, R. S.; MAXIM, B. R. Engenharia de software: uma abordagem profissional. 9. ed. Porto Alegre: AMGH, 2021.`](https://integrada.minhabiblioteca.com.br/#/books/9786558040118)
 
-- [`BRANCO, R. H. F.; LEITE, D. E. S.; JUNIOR, R. V. Gestão Colaborativa de Projetos. São Paulo: Saraiva, 2016.`](https://integrada.minhabiblioteca.com.br/#/books/9788547207878)
-  
-  Essa obra é um manual para a realização da gestão de projetos em uma organização. Ele fornece o passo a passo de toda a metodologia, que vai da compreensão do ambiente empresarial ao encerramento do projeto e portanto, inclui: ambiente do projeto, análise de sua estratégia e escolha de um projeto, contemplando as fases de iniciação, planejamento, execução, monitoramento e controle e encerramento.
+  O livro é uma obra indispensável para quem deseja entender os conceitos e práticas fundamentais da área, cobre desde a definição de requisitos até a implementação e teste de sistemas, incluindo também tópicos sobre metodologias ágeis e segurança de software.
 
-- [`CARNEIRO, C. Impostos federais, estaduais e municipais. São Paulo: Saraiva, 2019.`](https://integrada.minhabiblioteca.com.br/#/books/9788553612123)
+- [`RAGSDALE, C. T. Modelagem de planilha e análise de decisão: uma introdução prática a business analytics. São Paulo: Cengage, 2019.`](https://integrada.minhabiblioteca.com.br/#/books/9788522128303)
 
-  O livro aborda os principais impostos aplicados no Brasil, adota uma abordagem didática, está contextualizado no sistema tributário brasileiro, e é escrito por um autor com experiência na área tributária. Utilizando esse livro no curso, os estudantes obterão uma compreensão sólida dos princípios tributários e das implicações dos impostos federais, estaduais e municipais.
+  Este livro traz uma abordagem sobre como tratar de análises de dados em uma perspectiva de negócios. Ele apresenta o processo que torna possível a tomada de decisão utilizando o suporte de dados.
 
-- [`FASCIONI, L. Atitude pró-Inovação. Rio de Janeiro: Alta Books, 2021.`](https://integrada.minhabiblioteca.com.br/#/books/9786555200485)
+- [`SILVA, R. F. da. Deep Learning. São Paulo: Platos Soluções Educacionais S.A., 2021.`](https://integrada.minhabiblioteca.com.br/#/books/9786589881520)
 
-  Este livro  faz uma apresentação sintética de diversas estratégias de gestão e de modelo mental que podem ser adotadas por líderes comprometidos com a transformação do mundo em um contexto da Quarta Revolução Industrial. 
+  O livro é uma referência para quem busca compreender e aplicar técnicas de aprendizado profundo. Com uma linguagem acessível e exemplos práticos, o livro aborda redes neurais convolucionais, recorrentes e generativas, além de temas como otimização e transferência de aprendizado.
 
-- [`GONÇALVEZ, P. de F. et al. Testes de software e gerência de configuração. Porto Alegre: SAGAH, 2019.` ](https://integrada.minhabiblioteca.com.br/#/books/9788595029361)
-  
-  Este livro aborda dois pilares essenciais do desenvolvimento de software: testes e gerência de configuração. Ele atende à demanda por qualidade e produtividade, tanto do processo de produção quanto dos produtos gerados. Focando na importância do teste de software como uma etapa crítica de controle de qualidade, o livro assegura que o software atenda todas as funcionalidades esperadas de forma correta, destacando seu papel crucial como geralmente a última etapa antes do lançamento de um sistema, aplicativo ou jogo, podendo assim iniciar um novo projeto ou versão.
+- [`STEPHAN, A. P. Dez cases do design brasileiro. São Paulo: Blucher, 2008.`](https://integrada.minhabiblioteca.com.br/reader/books/9788521215431)
 
-- `KRUG, S. Não me faça pensar: atualizado: uma abordagem de bom senso à usabilidade web e mobile. Rio de Janeiro: Alta Books, 2014.`
-  
-  A obra é uma recomendação muito importante para cursos de Engenharia de Computação, especialmente para aqueles focados em design de interação, desenvolvimento de interfaces e experiência do usuário. Krug, um experiente consultor de usabilidade, aborda a importância crítica da usabilidade em sites e aplicativos, um aspecto frequentemente subestimado no desenvolvimento de software. Esta edição se adapta às mudanças tecnológicas, estendendo seus conceitos de usabilidade para dispositivos móveis. O livro ensina a realizar testes de usabilidade de forma econômica e prática, tornando-se um guia essencial para estudantes e profissionais que buscam compreender como criar interfaces intuitivas e fáceis de usar. 
+  Este livro traz a apresentação de um estudo de caso que buscou uma forma de modificar o processo de checkout em filas de lojas e mercados.
 
-- [`MACIEL, F. M. de B. Python e Django: desenvolvimento web moderno e ágil. Rio de Janeiro: Alta Books, 2020.`](https://integrada.minhabiblioteca.com.br/#/books/9786555200973)
+### Bibliográfia Complementar 
 
-  O livro oferece um aprendizado completo da linguagem Python, desde os fundamentos até tópicos avançados, com uma abordagem prática e exemplos relevantes. Por outro lado, o Django, conhecido pela sua eficiência em desenvolvimento web, é abordado de maneira detalhada, permitindo ao leitor aprender a criar aplicações web robustas, desde a análise e projeto até a implementação. 
+- [`AMÉRICO, B. Método de pesquisa qualitativa: analisando fora da caixa a prática de pesquisar organizações. Rio de Janeiro: Alta Books, 2021.`](https://integrada.minhabiblioteca.com.br/#/books/9786555203875)
 
-- [`MIZOGUTI, S. M. Fusões e aquisições: efeitos jurídicos das negociações. São Paulo: Almedina, 2022.`](https://integrada.minhabiblioteca.com.br/#/books/9786556275864)
+  Este livro combina e apresenta Métodos de Pesquisa Qualitativa de forma inovadora e rigorosa. Por Métodos de Pesquisa Qualitativa entende-se ferramentas que permitem a coleta e análise de dados, online e presencialmente, sobre como: acessar o campo de estudos/trabalho; mapear a literatura especializada sobre o tema estudado; definir quais práticas organizacionais devem ser exploradas; e escrever a versão final da investigação qualitativa.
 
-  O livro aborda especificamente as questões jurídicas relacionadas a fusões e aquisições e adota uma abordagem jurídica e técnica. Utilizando esse livro no curso, os leitores podem obter um entendimento aprofundado das implicações jurídicas dessas transações e estarão preparados para lidar com os desafios jurídicos que surgem em fusões e aquisições.
+- [`ANDRADE, E. L. D. Introdução à pesquisa operacional: método e modelos para análise de decisões. 5. ed. Rio de Janeiro: LTC, 2015.`](https://integrada.minhabiblioteca.com.br/reader/books/978-85-216-2967-2)
 
-- [`PAULA FILHO, W. de P. Engenharia de Software: produtos. 4. ed. Rio de Janeiro: LTC, 2019. v. 1.`](https://integrada.minhabiblioteca.com.br/#/books/9788521636724)
+  O livro é essencial para os estudantes e profissionais de engenharia, pois apresenta de forma clara e didática os conceitos e técnicas da pesquisa operacional. O volume abrange modelos matemáticos e métodos para a tomada de decisões em situações complexas, contribuindo para a formação de uma visão estratégica e analítica dos problemas empresariais.
 
-  O livro oferece uma perspectiva abrangente sobre as práticas e princípios da engenharia de software, especialmente na qualidade e eficiência dos produtos de software. Esta primeira parte foca em Produtos, introduzindo o estudante aos conceitos fundamentais da área e cobrindo tópicos como UML básica, requisitos, análise, desenho, testes, implementação, e padrões técnicos do processo Praxis “clássico” (SPraxis) e sua versão “ágil” (XPraxis), com uma base na tecnologia orientada a objetos. A notação de análise e desenho utilizada é a UML 2.0, e os padrões seguem os estabelecidos pela Engenharia de Software do IEEE, estando atualizados com as últimas revisões. 
+- [`CAMARGO, R. A. de; RIBAS, T. Gestão ágil de projetos. São Paulo: Saraiva, 2019.`](https://integrada.minhabiblioteca.com.br/#/books/9788553131891)
 
-- `HOPKINS, A. Python Web Development with Sanic: an In-depth guide for Python web developers to improve the speed and scalability of web applications. United States of America: Packt Publishing, 2022.`
+  O livro aborda a gestão de projetos e desenvolvimento de produtos através de abordagens ágeis e modernas de gestão.
 
-  Este livro apresenta uma abordagem prática e atualizada no desenvolvimento de aplicações web com Python. O livro oferece um guia profundo sobre o uso do framework Sanic, conhecido por sua alta performance e escalabilidade, alinhando-se perfeitamente com as necessidades práticas e teóricas dos estudantes que se preparam para enfrentar desafios reais da indústria de tecnologia. A combinação de teoria, exemplos práticos e a relevância para tendências atuais da indústria faz deste livro um recurso essencial para os estudantes durante o processo de aprender a construir sistemas web eficientes e escaláveis.
+- [`FASCIONI, Ligia; COSTA, Alberto. Atitude Pró-Liderança. Belo Horizonte: DMT Consulting, 2016.`](https://d335luupugsy2.cloudfront.net/cms/files/39758/1533238967Atitude_Pro_Liderana_-_Ligia_Fascioni.pdf)
 
-- [`SILBERSCHATZ, A. Sistema de bancos de dados. 7. ed. Rio de Janeiro: LTC, 2020.`](https://integrada.minhabiblioteca.com.br/#/books/9788595157552)
+  Este livro é uma introdução sobre práticas e frameworks de liderança, dando subsídios para a construção de competências dos estudantes de tecnologia que estão no início de carreira. 
 
-  Este livro abrangente sobre sistema de banco de dados apresenta desde os fundamentos até os conceitos mais recentes, como Big Data e blockchain. Com uma abordagem prática e teórica, cobre uma variedade de tópicos, incluindo gerenciamento, implementação e aplicação de bancos de dados.
+- [`GOMES, J. M. Elaboração e análise de viabilidade econômica de projetos: tópicos práticos de finanças para gestores não financeiros. São Paulo: Atlas, 2013.`](https://integrada.minhabiblioteca.com.br/#/books/9788522479634)
+
+  Neste livro são apresentados a metodologia e o passo a passo na Elaboração e Análise de Viabilidade Econômica de Projetos, sendo discutidos os conceitos, com exemplo, para o perfeito entendimento do processo de elaboração e análise. A metodologia é extremamente poderosa e garante ao estudante visão integrada e consistente do modelo de análise proposto, tornando-o apto a desenvolver seus próprios projetos.
+
+- [`GRUS, J. Data science do zero: noções fundamentais com Python. 2. ed. Rio de Janeiro: Alta Books, 2016.`](https://integrada.minhabiblioteca.com.br/#/books/9788550816463)
+
+  Além de ser uma leitura essencial para iniciantes em ciência de dados, o livro também pode ser utilizado como um guia de referência prático para profissionais experientes que buscam aprimorar suas habilidades em Python e explorar novas técnicas de análise de dados.
+
+- [`IUDÍCIBUS, S. de. Contabilidade gerencial: da teoria à prática. 7. ed. São Paulo: Atlas, 2020.`](https://integrada.minhabiblioteca.com.br/#/books/9788597024197)
+
+  O livro traz noções introdutórias da Contabilidade Gerencial, além de conceitos sobre lucro empresarial, variação de preços e análise de balanço como instrumento da Avaliação de Desempenho.Nesta nova edição, foi adicionado um capítulo inédito, integralmente dedicado à estrutura das demonstrações contábeis e financeiras.
+
+- [`MARTIN, R. C. Desenvolvimento ágil limpo: de volta às origens. Rio de Janeiro: Alta Books, 2020.`](https://integrada.minhabiblioteca.com.br/#/books/9788550816890)
+
+  Esta obra traz uma revisão do manifesto ágil e a forma como ele é utilizado na entrega de valor com o projeto. Ele traz uma visão do framework Scrum e outras ferramentas ágeis do ponto de vista dos desenvolvedores, refletindo sua experiência ao longo dos anos e como este manifesto foi revisitado.
+
+- [`MORETTIN, P. A. Estatística básica. 9. ed. São Paulo: Saraiva, 2017.`](https://integrada.minhabiblioteca.com.br/#/books/9788547220228)
+
+  Este livro é uma referência para estudantes, pois apresenta um entendimento claro e objetivo dos conceitos estatísticos. O volume abrange desde os conceitos fundamentais até técnicas avançadas de análise de dados, tornando-se uma ferramenta indispensável para quem trabalha com pesquisa, planejamento e tomada de decisões baseadas em dados.
+
+- [`NETO, J. A. A era do ecobusiness: criando negócios sustentáveis. Barueri: Manole, 2015.`](https://integrada.minhabiblioteca.com.br/#/books/9788520448953)
+
+  O desenvolvimento sustentável é uma abordagem necessária para o mundo e para as organizações. Neste livro, o autor descreve as bases dessa visão para o mundo dos negócios, dando subsídios para que lideranças tomem decisões conscientes no aspecto ambiental. 
+
+- [`VETORAZZO, A. S. Engenharia de software. Porto Alegre: SAGAH, 2018.`](https://integrada.minhabiblioteca.com.br/#/books/9788595026780)
+
+  Este livro é uma obra de referência na área, abordando desde conceitos básicos até as práticas mais avançadas da engenharia de software. Com uma linguagem clara e exemplos práticos, o livro traz ainda discussões sobre metodologias ágeis, gestão de projetos e qualidade de software.
+
+- [`ZABADAL, J. R. S.; RIBEIRO, V. G. Fenômenos de transporte: fundamentos e métodos. São Paulo: Cengage Learning Brasil, 2016.`](https://integrada.minhabiblioteca.com.br/#/books/9788522125135)
+
+  O livro aborda de maneira clara e objetiva os conceitos teóricos dos fenômenos de transporte, como transferência de massa, calor e quantidade de movimento. Além disso, o livro apresenta exemplos e exercícios resolvidos que ajudam o leitor a entender e aplicar os conceitos apresentados.
 
 ### Periódicos
 
 - [`Scalable Computing: Practice & Experience`](https://www.scpe.org/index.php/scpe)
-- [`Journal of Supercomputing`](https://link.springer.com/journal/11227)
-- [`International Journal of Interactive Mobile Technologies`](https://online-journals.org/index.php/i-jim)
+- [`Journal of Manufacturing Systems`](https://www.sciencedirect.com/journal/journal-of-manufacturing-systems)
+- [`International Journal of Computer Integrated Manufacturing`](https://www.tandfonline.com/journals/tcim20)
