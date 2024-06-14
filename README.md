@@ -2,7 +2,7 @@
 
 Material elaborado para auxiliar nas instruções do módulo 7 de engenharia de computação. Toda a documentação foi construída utilizando o [Docusaurus](https://docusaurus.io/).
 
-A versão renderizada da documentação pode ser vista [aqui](https://github.com/).
+A versão renderizada da documentação pode ser vista [aqui](https://murilo-zc.github.io/M7-Inteli-Eng-Comp/).
 
 
 Para saber mais sobre o Docusaurus, recomendo o vídeo abaixo:
