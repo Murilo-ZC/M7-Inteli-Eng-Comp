@@ -1,0 +1,54 @@
+---
+slug: /secres/artefatos-resumo-objetivos
+---
+
+import useBaseUrl from '@docusaurus/useBaseUrl';
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# Resumo dos Artefatos
+
+Aqui pessoal vou colocar um resumo dos artefatos. 
+
+
+:::danger[ATUALIZAÇÃO A CAMINHO]
+Eles serão atualizados no ADALOVE ainda, peço um pouco de paciencia para essa modificação.
+:::
+
+Os nossos artefatos serão entregues seguindo os padrões do desenvolvimento ágil, com entregas de valor a cada sprint. Para cada uma das etapas do projeto, teremos artefatos específicos que serão entregues, com valor incremental em cada uma delas.
+
+<img class="image-intro" src="https://static1.dualshockersimages.com/wordpress/wp-content/uploads/2022/08/Collage-Maker-24-Aug-2022-11.57-PM-scaled.jpg" style={{ display: 'block', marginLeft: 'auto', maxHeight: '40vh', marginRight: 'auto' }}/>
+
+## Sprint 1
+
+:::tip[Objetivo da Sprint]
+O objetivo da sprint 1 é criar uma proposta de sistema para o cliente, com base nas informações coletadas na etapa de levantamento de requisitos. Aqui os requisitos do projeto, funcionais e não funcionais devem estar claros e precisão ser mensuráveis.
+:::
+
+
+## Sprint 2
+
+:::tip[Objetivo da Sprint]
+O objetivo da sprint 2 é realizar a primeira implementação do backend do sistema. Aqui, a API de comunicação deve ser implementada e documentada, com testes unitários e de integração. Para este momento, é muito importante a construção do mockup do aplicativo que vai consumir a API. As jornadas do usuário devem ser validadas e os protótipos devem ser construídos.
+:::
+
+
+## Sprint 3
+
+:::tip[Objetivo da Sprint]
+Nessa sprint, o principal objetivo é a implementação do aplicativo do sistema. Aqui, a interface do usuário deve ser construída, com base nos protótipos validados na sprint anterior. A integração com a API deve ser realizada e testada, com a construção de testes de aceitação. A documentação do sistema deve ser atualizada e o deploy (***local***) da aplicação deve ser realizado.
+:::
+
+
+## Sprint 4
+
+:::tip[Objetivo da Sprint]
+Nessa sprint, a integração da aplicação deve ser finalizada. O sistema de monitoramento de saúde e os testes de carga da aplicação devem ser implementados. A documentação do sistema deve ser atualizada e o deploy da aplicação deve ser realizado em um ambiente de produção (***local***).
+:::
+
+
+## Sprint 5
+
+:::tip[Objetivo da Sprint]
+Por fim, a sprint 5 tem como objetivo a entrega final do projeto. Aqui, a documentação do sistema deve ser finalizada, com a entrega do manual do usuário e do manual do desenvolvedor. O sistema deve ser entregue em produção (***sendo executado localmente***), com a realização de testes de aceitação e a validação do cliente.
+:::
