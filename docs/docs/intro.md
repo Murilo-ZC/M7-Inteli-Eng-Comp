@@ -47,6 +47,7 @@ Nosso material está organizado da seguinte maneira:
 
 - `Encontros`: Nesta seção, você encontrará o cronograma de encontros do módulo. Em cada encontro, serão abordados tópicos específicos do módulo, com o objetivo de fixar o conteúdo e desenvolver o projeto.
 
+- `Atividades Ponderadas`: Nesta seção, você encontrará as atividades ponderadas que serão realizadas ao longo do módulo. Cada atividade possui um peso específico na nota final do módulo. A descrição, material de consulta e prazo de entrega de cada atividade estão disponíveis nesta seção.
 
 
 :::tip[Sistema Operacional Recomendado]
