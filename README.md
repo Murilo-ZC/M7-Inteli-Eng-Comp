@@ -13,3 +13,4 @@ Para saber mais sobre o Docusaurus, recomendo o vídeo abaixo:
   </a>
 </div>
 
+Atualizações a caminho!
