@@ -9,4 +9,4 @@ import TabItem from '@theme/TabItem';
 
 # Atividades Ponderadas do Módulo
 
-<img src="https://giffiles.alphacoders.com/218/218962.gif" style={{ display: 'block', marginLeft: 'auto', maxHeight: '50vh', marginRight: 'auto', marginBottom: '24px' }}/>
+<img src="https://media.tenor.com/5GvDbYxG-lQAAAAe/to-be-continued-one-piece.png" style={{ display: 'block', marginLeft: 'auto', maxHeight: '50vh', marginRight: 'auto', marginBottom: '24px' }}/>

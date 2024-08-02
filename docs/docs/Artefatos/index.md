@@ -19,7 +19,7 @@ Os nossos artefatos serão entregues seguindo os padrões do desenvolvimento ág
 
 Pessoal um ponto muito importante que deve estar sempre claro para vocës é que a entrega de valor é o que importa. Não adianta entregar um monte de artefatos se eles não agregam valor ao projeto. Estou colocando aqui quais são os artefatos esperados para cada sprint, mas vocês devem, como equipe de desenvolvimento, verificar qual valor será entregue em cada sprint.
 
-<img class="image-intro" src="https://i.pinimg.com/originals/22/81/36/228136787949a85c103a630c753726aa.gif" style={{ display: 'block', marginLeft: 'auto', maxHeight: '40vh', marginRight: 'auto' }}/>
+<img class="image-intro" src="https://i.pinimg.com/originals/09/a1/30/09a130e453231aab5157b5b258c1b62c.gif" style={{ display: 'block', marginLeft: 'auto', maxHeight: '40vh', marginRight: 'auto' }}/>
 
 ## Sprint 1
 

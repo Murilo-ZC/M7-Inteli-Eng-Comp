@@ -12,7 +12,7 @@ import TabItem from '@theme/TabItem';
 
 Bem vindos ao módulo 7 de Engenharia de Computação - ***Sistema de manutenção preditiva com IA e arquitetura em nuvem***.
 
-<img class="image-intro" src="https://i.pinimg.com/originals/e8/4e/db/e84edb279472c7ab49e97ec276d4ffda.gif" style={{ display: 'block', marginLeft: 'auto', maxHeight: '40vh', marginRight: 'auto' }}/>
+<img class="image-intro" src="https://i.redd.it/tqtorvcxojib1.gif" style={{ display: 'block', marginLeft: 'auto', maxHeight: '40vh', marginRight: 'auto' }}/>
 
 
 Ao longo deste módulo, vamos discutir sobre alguns conceitos principais:
@@ -54,7 +54,7 @@ Nosso material está organizado da seguinte maneira:
 
 Pessoal ao longo do módulo, o sistema operacional utilizado `oficialmente` será o Ubuntu Linux 22.04 LTS. RECOMENDO FORTEMENTE que você iniciem com um `clean install` do Ubuntu. Caso você não tenha um microsd com o Ubuntu, ou esteja utilizando outro sistema operacional, recomendo pegar um cartão no laboratório e realizar a instalação padrão.
 
-<img class="image-intro" src="https://64.media.tumblr.com/aefc0fa20da07843ef8ce5db9271513b/e6d7f259c430d198-6b/s540x810/c35f214dc733fda5f9fe182f143296fcf189a6c2.gif" style={{ display: 'block', marginLeft: 'auto', maxHeight: '40vh', marginRight: 'auto' }}/>
+<img class="image-intro" src="https://i.pinimg.com/originals/4d/45/2a/4d452a5cb8bc289ba2aa8b18931f0435.gif" style={{ display: 'block', marginLeft: 'auto', maxHeight: '40vh', marginRight: 'auto' }}/>
 
 :::
 
