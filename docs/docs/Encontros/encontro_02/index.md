@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: Encontro 02 - Como trabalhar com datasets desbalanceados, validação cruzada, autoML e métricas de avaliação de modelos
+title: Computação - Encontro 02 - Como trabalhar com datasets desbalanceados, validação cruzada, autoML e métricas de avaliação de modelos
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
@@ -9,7 +9,7 @@ import TabItem from '@theme/TabItem';
 
 ## Em construção
 
-<img src="https://giffiles.alphacoders.com/218/218962.gif" style={{ display: 'block', marginLeft: 'auto', maxHeight: '50vh', marginRight: 'auto', marginBottom: '24px' }}/>
+<img src="https://media.tenor.com/5GvDbYxG-lQAAAAe/to-be-continued-one-piece.png" style={{ display: 'block', marginLeft: 'auto', maxHeight: '50vh', marginRight: 'auto', marginBottom: '24px' }}/>
 
 
 <!-- Ola pessoas!! Vamos ao longo deste encontro estudar sobre como podemos criar soluções de log e também como podemos consolidar alguns dos nossos conhecimentos com a construção de aplicativos móveis.

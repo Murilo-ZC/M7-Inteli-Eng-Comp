@@ -39,8 +39,15 @@ A principal diferença entre ML e Deep Learning está na complexidade dos modelo
 
 **Aprendizado por Reforço** é um paradigma onde um agente aprende a tomar decisões interagindo com um ambiente. O agente recebe recompensas ou penalidades baseadas em suas ações, e seu objetivo é maximizar a recompensa cumulativa ao longo do tempo. Diferente do aprendizado supervisionado, não há rótulos explícitos, mas sim um sistema de recompensas. Este tipo de aprendizado é particularmente útil em cenários de tomada de decisão sequencial, como jogos, robótica ou otimização de sistemas. Embora menos comum em análise de séries temporais tradicionais, o aprendizado por reforço pode ser aplicado em cenários de previsão e tomada de decisão em tempo real baseados em dados de séries temporais.
 
+<img src="https://techvidvan.com/tutorials/wp-content/uploads/sites/2/2020/08/Reinforcement-Learning-in-ML-TV.jpg" style={{ display: 'block', marginLeft: 'auto', maxHeight: '50vh', marginRight: 'auto', marginBottom: '24px' }}/>
+
 No contexto nosso contexto, focaremos principalmente no aprendizado supervisionado, pois estaremos trabalhando com dados históricos rotulados para prever valores futuros. No entanto, técnicas de aprendizado não supervisionado podem ser úteis na fase de preparação e exploração dos dados.
 
+:::note[Autoestudos]
+
+Pessoal desse ponto em diante, vamos iniciar nossa revisão dos conceitos aplicando eles em alguns projetos. A metodologia CRISP-DM será nossa guia para a construção dos modelos e avaliação de desempenho. Além do material de autoestudo, recomendo fortemente a leitura do artigo do Fayyad *et al.* - [*From Data Mining to Knowledge Discovery in Databases*](https://ojs.aaai.org/aimagazine/index.php/aimagazine/article/view/1230), que é um dos primeiros artigos a descrever o processo de mineração de dados, que fundamenta diversas técncias que vamos utilizar. 
+
+:::
 
 
 
