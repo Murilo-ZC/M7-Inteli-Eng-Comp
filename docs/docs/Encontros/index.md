@@ -9,7 +9,7 @@ import TabItem from '@theme/TabItem';
 
 Nesta seção os materiais de apoio para os encontros serão disponibilizados. Extremamente importante que vocês acessem e estudem os materiais antes dos encontros, para que possamos aproveitar ao máximo o tempo juntos.
 
-<img class="image-intro" src="https://64.media.tumblr.com/cae791ce0c9624ae5c35890f47a3ddb0/117f61705f6b4a7f-67/s1280x1920/2dd1b69357ec60c6e3e45b0082bc45118a458008.gif" style={{ display: 'block', marginLeft: 'auto', maxHeight: '40vh', marginRight: 'auto' }}/>
+<img class="image-intro" src="https://i.ytimg.com/vi/MFAp1prgNDA/maxresdefault.jpg" style={{ display: 'block', marginLeft: 'auto', maxHeight: '40vh', marginRight: 'auto' }}/>
 
 Pessoal, acredito que já está bastante claro nessa altura do campeonato, mas é sempre bom reforçar: **implementem**! A prática é fundamental para a fixação do conteúdo e para a evolução de vocês como pessoas desenvolvedoras, engenheiras e arquitetas de solução.
 
