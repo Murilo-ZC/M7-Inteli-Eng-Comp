@@ -114,11 +114,5 @@ Isso não isenta vocês de moverem os cards na Adalove beleza??
         - https://www.airops.com/blog/sql-vs-python-for-data-transformation
 </details> 
 
-<details> 
-        <summary mdxType="summary">	A Complete Guide to Data Augmentation</summary>
-
-        - https://www.datacamp.com/tutorial/complete-guide-data-augmentation
-</details> 
-
 ---
 
