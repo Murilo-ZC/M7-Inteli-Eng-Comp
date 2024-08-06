@@ -40,6 +40,30 @@ Os dados do modelo, taxa de acerto, taxa de erro, matriz de confusão e curva RO
 Eles serão atualizados no ADALOVE ainda, peço um pouco de paciencia para essa modificação.
 :::
 
+Elaborar uma apresentação para o parceiro contendo a análise do cenário. Os itens da entrega serão:
+
+
+1. Matriz de Risco - deve ser feita considerando o projeto que os grupos estão criando, protótipo e produto final. Deve ser entregue no template disponível no drive da turma. (peso 3,5)
+
+A matriz de risco é uma ferramenta utilizada no gerenciamento de riscos para avaliar e priorizar riscos com base em sua probabilidade de ocorrência e impacto potencial. Essa ferramenta visual ajuda as organizações a identificar quais riscos requerem atenção imediata e quais podem ser monitorados com menos urgência. Tipicamente, a matriz é organizada em um formato de grade com a probabilidade de um lado e o impacto no outro, criando quadrantes que categorizam os riscos como baixos, moderados, altos ou extremos. Isso permite que gerentes e equipes de projeto tomem decisões informadas sobre onde concentrar recursos e esforços para mitigação de riscos, contribuindo para uma gestão mais eficaz e proativa dos desafios potenciais.
+
+[Template da matriz de
+risco](https://drive.google.com/drive/u/3/folders/1lTqisJ_gxxtc5J5aXM8ula2kQ4MsII_M)
+
+2. Canvas Proposta de Valor - deve ser feito considerando a solução que vocês estão desenvolvendo. (Usar o template disponível no drive da turma) (peso 3,5)
+
+O Business Model Canvas é uma ferramenta estratégica de gestão e planejamento que permite visualizar as principais funções de um negócio em um único quadro. Criado por Alexander Osterwalder, este modelo é dividido em nove blocos principais que cobrem os elementos cruciais de um negócio: Segmentos de Clientes, Propostas de Valor, Canais, Relacionamento com Clientes, Fontes de Receita, Recursos Principais, Atividades-chave, Parcerias Principais e Estrutura de Custos. A utilização do Canvas facilita a compreensão, design e
+inovação de modelos de negócios, ajudando empreendedores e empresas a alinhar suas atividades por meio de uma visão clara e compartilhada, garantindo que todas as partes do negócio trabalhem em harmonia para alcançar seus objetivos
+estratégicos.
+
+[Template do business model
+canvas](https://upload.wikimedia.org/wikipedia/commons/1/10/Business_Model_Canvas.png)
+
+
+3. Análise financeira do projeto - deve ser realizado um levantamento de custos do protótipo e do projeto implementado. Devem ser destacas fontes de receita e estrutura de custos. Detalhando, claramente à sua ligação com a proposta de valor e fundamentais para a viabilidade financeira do negócio. (peso 3,0)
+
+O envio deve ser disponibilizado na documentação do grupo, na seção dedicada ao artefato.
+
 ### Artefato - Economia Circular e Mapeamento do Ciclo de Produção e Consumo
 
 Realizar mapeamento (incluindo levantamento e representação visual interativa) de matérias-primas, recursos, processos e impactos (sociais e ambientais) implicados na fabricação, logística, utilização, reutilização, reciclagem e descarte (incluindo possibilidades adequadas e inadequadas) dos componentes na atividade produtiva do parceiro de negócio. Os itens da entrega serão:
