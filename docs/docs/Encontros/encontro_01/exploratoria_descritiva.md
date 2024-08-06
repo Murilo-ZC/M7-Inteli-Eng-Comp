@@ -199,4 +199,32 @@ plt.ylabel('Genero')
 plt.show()
 ```
 
+O objetivo desses gráficos é permitir que você visualize a distribuição dos dados e busque identificar padrões, tendências e anomalias. A visualização de dados é uma etapa análise exploratória que permite entender melhor as características dos dados e tome decisões informadas sobre o pré-processamento e modelagem dos dados.
 
+Busquem na documentação das ferramentas para plotar gráficos mais visualizações que podem ser construídas. A exploração dessas ferramentas pode auxiliar na identificação de padrões e relações nos dados, que podem ser úteis para a construção de modelos de machine learning.
+
+## Análise Descritiva
+
+A análise descritiva é uma etapa importante da análise exploratória de dados, que visa resumir e descrever as principais características dos dados de forma quantitativa. Ela fornece um resumo conciso dos dados, tornando-os mais fáceis de entender e interpretar. A análise descritiva é geralmente realizada usando uma combinação de técnicas estatísticas e visualizações.
+
+Uma ferramenta que pode nos auxiliar a visualização dos dados é o `pandas_profiling`. Essa biblioteca gera um relatório com diversas informações sobre os dados, como estatísticas descritivas, distribuições, correlações, entre outros. O `pandas_profiling` passou por uma atualização no projeto e agora se chama `ydata_profiling`. Vamos instalar a biblioteca e gerar o relatório.
+
+```bash showLineNumbers
+pip install -U ydata-profiling
+```
+
+## Material de Estudo Adicional
+
+- https://github.com/ydataai/ydata-profiling
+- https://www.influxdata.com/blog/pandas-profiling-tutorial/
+- https://docs.profiling.ydata.ai/latest/
+- https://www.kdnuggets.com/2021/02/pandas-profiling-one-line-magical-code-eda.html
+- https://pandas.pydata.org/pandas-docs/stable/getting_started/intro_tutorials/index.html
+- https://medium.com/@muralimanohar6/leveraging-the-way-you-interpret-the-descriptive-statistics-in-python-bd2111fb5211
+- https://discovery.cs.illinois.edu/guides/DataFrame-Fundamentals/descriptive-statistics-of-columns-in-dataframes/#List-of-Functions
+- https://discovery.cs.illinois.edu/guides/
+- https://discovery.cs.illinois.edu/guides/Statistics-Formulas/correlated-independent-variables/
+- https://discovery.cs.illinois.edu/guides/Descriptive-Statistics/eda-start/
+- https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf
+- https://www.kaggle.com/discussions/getting-started/481538
+- https://realpython.com/python-statistics/
