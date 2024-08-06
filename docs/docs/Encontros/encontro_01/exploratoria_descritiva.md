@@ -213,6 +213,44 @@ Uma ferramenta que pode nos auxiliar a visualização dos dados é o `pandas_pro
 pip install -U ydata-profiling
 ```
 
+Importante: para visualizar o relatório no Jupyter Notebook, é necessário instalar o `ipywidgets`. Para instalar, utilize o seguinte comando:
+
+```bash showLineNumbers
+pip install ipywidgets
+# Recomendação do Co-Pilot, não precisei para executar o código
+# jupyter nbextension enable --py widgetsnbextension
+# Para permitir que as saídas dos widgets sejam exibidas no notebook
+# Ref.: https://stackoverflow.com/questions/43288550/iopub-data-rate-exceeded-in-jupyter-notebook-when-viewing-image
+jupyter lab --NotebookApp.iopub_data_rate_limit=1.0e10
+```
+
+Para visualizar o relatório, vamos utilizar o seguinte código:
+
+```python showLineNumbers
+from ydata_profiling import ProfileReport
+import pandas as pd
+
+# Abre o dataset em um DataFrame do Pandas
+dados = pd.read_csv('Video_Games_Sales_as_at_22_Dec_2016.csv')
+
+# Gerando o relatório
+profile = ProfileReport(dados, title='Relatório de Análise Descritiva', explorative=True)
+
+# Salvando o relatório em um arquivo HTML
+profile.to_file("relatorio_analise_descritiva.html")
+```
+
+Para exibir o relatório no Jupyter Notebook, basta utilizar o seguinte código:
+
+```python showLineNumbers
+# Forma 1
+# profile.to_widgets()
+# Forma 2
+profile.to_notebook_iframe()
+```
+
+
+
 ## Material de Estudo Adicional
 
 - https://github.com/ydataai/ydata-profiling

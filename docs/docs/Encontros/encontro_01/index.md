@@ -18,11 +18,17 @@ Ola pessoas!! Vamos ao longo deste encontro rever como as ferramentas de Machine
 
 Dentro deste encontro, temos como principais objetivos:
 - Rever os principais conceitos de Machine Learning;
-- Gerar modelos e verificar seu desempenho;
-- Entender como podemos avaliar o desempenho dos modelos.
+- ~Gerar modelos e verificar seu desempenho;~
+- ~Entender como podemos avaliar o desempenho dos modelos.~
 
 :::tip[Implementem!!]
 
 Pessoal, acredito que já está bastante claro nessa altura do campeonato, mas é sempre bom reforçar: **implementem**! A prática é fundamental para a fixação do conteúdo e para a evolução de vocês como pessoas desenvolvedoras, engenheiras e arquitetas de solução.
 
 :::
+
+---
+
+## Slides do Encontro
+
+Os slides do encontro podem ser encontrados aqui: https://drive.google.com/file/d/1L44N8akRQu2OIRy3VeeyzaJT27IQ3QWh/view?usp=sharing.

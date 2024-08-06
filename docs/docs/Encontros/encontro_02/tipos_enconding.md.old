@@ -1,0 +1,11 @@
+:::tip[IMPORTANTE: Tipos de Encoding]
+
+<img src="https://i.pinimg.com/originals/9c/c5/3d/9cc53d773b11df8bf93737eef1b0757b.gif" style={{ display: 'block', marginLeft: 'auto', maxHeight: '50vh', marginRight: 'auto', marginBottom: '24px' }}/> 
+
+Trazendo uma observação muito importante trazida do professor Nicola! Nem sempre faz sentindo utilizar o `One-Hot Encoding` para transformar as variáveis categóricas em variáveis numéricas. Em alguns casos, a utilização de `Label Encoding` pode ser mais adequada. O `Label Encoding` transforma as variáveis categóricas em variáveis numéricas, atribuindo um valor numérico para cada valor único da variável categórica. A escolha entre `One-Hot Encoding` e `Label Encoding` depende do tipo de variável categórica e do modelo que você está utilizando. O `One-Hot Encoding` é mais adequado para variáveis categóricas que não possuem uma ordem natural, enquanto o `Label Encoding` é mais adequado para variáveis categóricas que possuem uma ordem natural.
+
+Recomendo fortemente a leitura do arquivo: [Converting Categorical Data into Numerical Form: A Practical Guide for Data Science](https://medium.com/@brandon93.w/converting-categorical-data-into-numerical-form-a-practical-guide-for-data-science-99fdf42d0e10)
+
+Recomendo fortemente testar outras formas de encoding e verificar qual é a mais adequada para o seu problema.
+
+:::
