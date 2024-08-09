@@ -17,33 +17,27 @@ Isso não isenta vocês de moverem os cards na Adalove beleza??
 
 :::
 
-## Em construção
 
-<img src="https://giffiles.alphacoders.com/218/218962.gif" style={{ display: 'block', marginLeft: 'auto', maxHeight: '50vh', marginRight: 'auto', marginBottom: '24px' }}/>
+<details> 
+        <summary mdxType="summary">	Machine Learning Basics</summary>
 
-<!-- <details> 
-        <summary mdxType="summary">	Flutter architectural overview</summary>
-
-        - https://docs.flutter.dev/resources/architectural-overview
+        - https://www.deeplearningbook.org/contents/ml.html
 </details> 
 
 <details> 
-        <summary mdxType="summary">	Implementing a repository pattern in Flutter</summary>
+        <summary mdxType="summary">	Live 2020-02-17!!! Imbalanced Data and Post-Hoc Tests</summary>
 
-        - https://blog.logrocket.com/implementing-repository-pattern-flutter/
+        - https://www.youtube.com/watch?v=iTxzRVLoTQ0
 </details> 
 
 <details> 
-        <summary mdxType="summary">	Flutter Clean Architecture - Learn By A Project - Full Beginner"s Tutorial</summary>
+        <summary mdxType="summary">	How to handle imbalanced datasets in Python</summary>
 
-        - https://www.youtube.com/watch?v=7V_P6dovixg
+        - https://www.youtube.com/watch?v=4SivdTLIwHc
 </details> 
 
 <details> 
-        <summary mdxType="summary">	Application Architectures</summary>
+        <summary mdxType="summary">	Dados desequilibrados</summary>
 
-        - https://www.youtube.com/watch?v=iyES7UwJfvw
-</details>  -->
-
----
-
+        - https://developers.google.com/machine-learning/data-prep/construct/sampling-splitting/imbalanced-data?hl=pt-br
+</details> 
