@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: Computação - Encontro 02 - Como trabalhar com datasets desbalanceados, validação cruzada, autoML e métricas de avaliação de modelos
+title: Computação - Encontro 02 - Métricas de Avaliação de Modelos
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';

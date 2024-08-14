@@ -1,27 +1,27 @@
 ---
 sidebar_position: 1
-title: Computação - Encontro 03 - Introdução a series temporais, apresentar um método de regressão com séries temporais
+title: Computação - Encontro 03 - Introdução a Series Temporais
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
-## Em construção
 
-<img src="https://media.tenor.com/5GvDbYxG-lQAAAAe/to-be-continued-one-piece.png" style={{ display: 'block', marginLeft: 'auto', maxHeight: '50vh', marginRight: 'auto', marginBottom: '24px' }}/>
+Ola pessoas!! Vamos ao longo deste encontro estudar o que são séries temporais, quais são suas principais aplicações e como elas podem ser utilizadas em tarefas de predição.
 
-<!-- Ola pessoas!! Vamos ao longo deste encontro estudar sobre como podemos criar soluções de log e também como podemos consolidar alguns dos nossos conhecimentos com a construção de aplicativos móveis.
-
-<img src="https://i.makeagif.com/media/10-09-2017/ueqF7b.gif" style={{ display: 'block', marginLeft: 'auto', maxHeight: '50vh', marginRight: 'auto', marginBottom: '24px' }}/>
+<img src="https://pa1.aminoapps.com/7023/053bd9af9173872d495ddacfe2b4a1594969d077r1-500-526_hq.gif" style={{ display: 'block', marginLeft: 'auto', maxHeight: '50vh', marginRight: 'auto', marginBottom: '24px' }}/>
 
 Dentro deste encontro, temos como principais objetivos:
-- Compreender como utilizar os logs nas aplicações;
-- Implementar notificações locais;
-- Adicionar as funcionalidades de sensores e outros recursos na nossa aplicação.
+- Compreender o que são séries temporais;
+- Entender como as séries temporais podem ser utilizadas em tarefas de predição;
+- Representar e manipular séries temporais utilizando a biblioteca Pandas.
 
-:::tip[Implementem!!]
+:::tip[Recomendação de Leitura]
 
-Pessoal, acredito que já está bastante claro nessa altura do campeonato, mas é sempre bom reforçar: **implementem**! A prática é fundamental para a fixação do conteúdo e para a evolução de vocês como pessoas desenvolvedoras, engenheiras e arquitetas de solução.
+Pessoal, essa recomendação não está diretamente relacionada com a aula, mas achei uma leitura muito agradevel e com algumas reflexões interessantes, gostaria de recomendar para vocês!
 
-::: -->
+<img src="https://m.media-amazon.com/images/I/71O8HoxjDXL._AC_UF1000,1000_QL80_.jpg" style={{ display: 'block', marginLeft: 'auto', maxHeight: '50vh', marginRight: 'auto', marginBottom: '24px' }}/>
+
+
+:::

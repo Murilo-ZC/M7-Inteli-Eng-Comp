@@ -17,33 +17,18 @@ Isso não isenta vocês de moverem os cards na Adalove beleza??
 
 :::
 
-## Em construção
 
-<img src="https://giffiles.alphacoders.com/218/218962.gif" style={{ display: 'block', marginLeft: 'auto', maxHeight: '50vh', marginRight: 'auto', marginBottom: '24px' }}/>
+<details> 
+        <summary mdxType="summary">	Why Are Time Series Special? : Time Series Talk</summary>
 
-<!-- <details> 
-        <summary mdxType="summary">	Flutter architectural overview</summary>
-
-        - https://docs.flutter.dev/resources/architectural-overview
+        - https://www.youtube.com/watch?v=ZoJ2OctrFLA
 </details> 
 
 <details> 
-        <summary mdxType="summary">	Implementing a repository pattern in Flutter</summary>
+        <summary mdxType="summary">	Time Series Analysis in Python – A Comprehensive Guide with Examples</summary>
 
-        - https://blog.logrocket.com/implementing-repository-pattern-flutter/
+        - https://www.machinelearningplus.com/time-series/time-series-analysis-python/
 </details> 
-
-<details> 
-        <summary mdxType="summary">	Flutter Clean Architecture - Learn By A Project - Full Beginner"s Tutorial</summary>
-
-        - https://www.youtube.com/watch?v=7V_P6dovixg
-</details> 
-
-<details> 
-        <summary mdxType="summary">	Application Architectures</summary>
-
-        - https://www.youtube.com/watch?v=iyES7UwJfvw
-</details>  -->
 
 ---
 

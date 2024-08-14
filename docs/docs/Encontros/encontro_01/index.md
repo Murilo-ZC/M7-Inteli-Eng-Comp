@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-title: Computação - Encontro 01 - Retomada dos conceitos de Machine Learning
+title: Computação - Encontro 01 - Review Machine Learning
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
