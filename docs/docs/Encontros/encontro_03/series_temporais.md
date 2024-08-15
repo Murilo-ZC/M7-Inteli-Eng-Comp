@@ -113,3 +113,27 @@ Aqui podemos observar o comportamento do preço de fechamento da ação da Apple
 
 ## Vocabulário de Séries Temporais
 
+As séries temporais podem ser:
+
+- `Univariadas`: quando possuem apenas uma variável dependente;
+- `Multivariadas`: quando possuem mais de uma variável dependente.
+
+Elas também pode apresentar como característica:
+
+- `Discreta`: quando as observações são feitas em intervalos regulares;
+- `Contínua`: quando as observações são feitas em intervalos contínuos.
+
+Além disso, as séries temporais podem ser descritas por 4 componentes principais:
+
+- `Sazonalidade`: padrões que se repetem em intervalos regulares. Esses intervalos podem ser diários, semanais, mensais, anuais, por exemplo;
+- `Tendência`: padrões de crescimento ou decrescimento ao longo do tempo;
+- `Ciclos`: padrões que se repetem em intervalos não regulares, são semelhantes à sazonalidade, mas não possuem um intervalo fixo;
+- `Ruído ou Fator Aleatório`: variações aleatórias nos dados.
+
+As séries podem ser decompostas de duas maneiras:
+
+- `Aditiva`: quando a série é a soma das componentes;
+- `Multiplicativa`: quando a série é o produto das componentes.
+
+Uma outra característica importante quanto as séries temporais é a estacionariedade. Uma série é considerada estacionária quando suas propriedades estatísticas, como média e variância, são constantes ao longo do tempo. Isso é importante, pois muitos dos métodos e técnicas utilizados em séries temporais assumem que os dados são estacionários.
+
