@@ -133,7 +133,113 @@ Além disso, as séries temporais podem ser descritas por 4 componentes principa
 As séries podem ser decompostas de duas maneiras:
 
 - `Aditiva`: quando a série é a soma das componentes;
+
+     $$
+     Y(t) = T(t) + S(t) + R(t)
+     $$
+
 - `Multiplicativa`: quando a série é o produto das componentes.
+
+     $$
+     Y(t) = T(t) \times S(t) \times R(t)
+     $$
+
 
 Uma outra característica importante quanto as séries temporais é a estacionariedade. Uma série é considerada estacionária quando suas propriedades estatísticas, como média e variância, são constantes ao longo do tempo. Isso é importante, pois muitos dos métodos e técnicas utilizados em séries temporais assumem que os dados são estacionários.
 
+## Continuando a Análise
+
+
+A decomposição de uma série temporal envolve a separação da série em seus componentes fundamentais, geralmente em tendência, sazonalidade, e resíduo (ou ruído). Este processo ajuda a entender melhor o comportamento da série e é útil para análise e modelagem. Existem diferentes métodos para decomposição, mas os dois mais comuns são a decomposição aditiva e a decomposição multiplicativa.
+
+Primeiro vamos precisar instalar a biblioteca `statsmodels`:
+
+```bash
+pip install statsmodels
+```
+
+Agora vamos importar a biblioteca e realizar a decomposição da série temporal:
+
+```py
+from statsmodels.tsa.seasonal import seasonal_decompose
+
+# Decompondo a série temporal
+decomposition = seasonal_decompose(apple_data['Close'], model='multiplicative', period=30)
+
+# Plotando a decomposição
+fig, axes = plt.subplots(4, 1, figsize=(10, 8))
+decomposition.observed.plot(ax=axes[0], title='Observado')
+decomposition.trend.plot(ax=axes[1], title='Tendência')
+decomposition.seasonal.plot(ax=axes[2], title='Sazonalidade')
+decomposition.resid.plot(ax=axes[3], title='Ruído')
+plt.tight_layout()
+```
+
+- Observado (observed): Mostra a série original.
+- Tendência (trend): Mostra a direção geral da série ao longo do tempo.
+- Sazonalidade (seasonal): Mostra os padrões repetitivos que ocorrem em intervalos regulares.
+- Resíduo (resid): Representa as flutuações aleatórias não explicadas pela tendência ou sazonalidade. Se o modelo for bom, o resíduo deve parecer um ruído branco, sem padrões óbvios.
+
+<img src={useBaseUrl('/img/series-temporais/serie-decomposta.png')} style={{ display: 'block', marginLeft: 'auto', maxHeight: '50vh', marginRight: 'auto', marginBottom: '24px' }}/>
+
+## Criando um Modelo de Previsão - ARIMA
+
+Agora que já exploramos e entendemos melhor os dados, podemos começar a criar um modelo de previsão. Para isso, vamos utilizar o modelo ARIMA (AutoRegressive Integrated Moving Average), que é um dos modelos mais utilizados para previsão de séries temporais. O modelo ARIMA é composto por três componentes principais:
+
+- `AR` (AutoRegressive): Modelo autorregressivo, que utiliza os valores passados da série para prever o valor futuro.
+- `I` (Integrated): Modelo integrado, que utiliza a diferença entre os valores da série para tornar a série estacionária.
+- `MA` (Moving Average): Modelo de média móvel, que utiliza os erros passados da série para prever o valor futuro.
+
+Para iniciar a construção do modelo, vamos utilizar o pacote `AutoARIMA` da biblioteca `pmdarima`. Para instalar a biblioteca, execute o comando abaixo:
+
+```bash
+pip install pmdarima
+```
+
+Agora vamos importar a biblioteca e criar o modelo ARIMA. Importante ressaltar que o modelo ARIMA é um modelo estatístico e, por isso, é importante que os dados sejam estacionários. Caso contrário, é necessário realizar a diferenciação dos dados para torná-los estacionários.
+
+Para verificar se os dados são estacionários, podemos utilizar o teste de Dickey-Fuller, que é um teste estatístico utilizado para verificar a estacionariedade de uma série temporal. Para isso, vamos utilizar a função `adfuller` do pacote `statsmodels`:
+
+```py	
+from statsmodels.tsa.stattools import adfuller
+
+# Teste de Dickey-Fuller
+result = adfuller(apple_data['Close'])
+print('Estatística do teste:', result[0])
+print('Valor-p:', result[1])
+print('Valores críticos:', result[4])
+```
+
+Como podemos interpretar o resultado do teste de Dickey-Fuller?
+
+- Se a estatística do teste for menor que o valor crítico, rejeitamos a hipótese nula e a série é estacionária.
+- Se o valor-p for menor que 0.05, rejeitamos a hipótese nula e a série é estacionária.
+
+Os valores críticos são os valores que a estatística do teste deve ser menor para rejeitarmos a hipótese nula. Se a estatística do teste for menor que esses valores, rejeitamos a hipótese nula e a série é estacionária. Caso contrário, não podemos rejeitar a hipótese nula e a série não é estacionária.
+
+:::tip[TLDR - Teste de Dickey-Fuller]
+
+O teste de Dickey-Fuller é um teste estatístico utilizado para verificar a estacionariedade de uma série temporal. Se a estatística do teste for menor que o valor crítico e o valor-p for menor que 0.05, a série é estacionária.
+ELe foi criado por David Dickey e Wayne Fuller em 1979. Para saber mais, acesse [este link](https://en.wikipedia.org/wiki/Dickey%E2%80%93Fuller_test).
+
+:::
+
+Caso os dados não sejam estacionários, podemos realizar a diferenciação dos dados para torná-los estacionários. Para isso, podemos utilizar a função `diff` do Pandas:
+
+```py
+# Diferenciando os dados
+apple_data['Close_diff'] = apple_data['Close'].diff()
+apple_data['Close_diff'].plot(title='Diferença dos Dados')
+```
+
+Agora para aplicar o teste novamente:
+
+```py	
+# Teste de Dickey-Fuller
+result = adfuller(apple_data['Close_diff'].dropna())
+print('Estatística do teste:', result[0])
+print('Valor-p:', result[1])
+print('Valores críticos:', result[4])
+```
+
+O `dropna()` é utilizado para remover os valores nulos gerados pela diferenciação dos dados. Agora que os dados são estacionários, podemos criar o modelo ARIMA. Vamos primeiro criar um modelo com a função `auto_arima`?
