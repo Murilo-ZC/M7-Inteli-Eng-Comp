@@ -170,9 +170,42 @@ A aplicação ainda estará em execução local, com a integração do modelo de
 Implementação do ETL, Datawarehouse, Pipeline de treinamento, Dashboard de visualização
 :::
 
-Nesta sprint, o processo de ETL (Extract, Transform, Load) deve ser implementado, com a construção de um datawarehouse para armazenamento dos dados. Um pipeline de treinamento deve ser construído, com a integração do modelo de predição.
+A Implementação de IA consiste nos seguintes itens:
+- Projeto do Fluxo de Retreinamento do modelo;
+- Construção do processo de ETL;  
+- Pipeline de Treinamento do Modelo; e
+- Visualização de dados.
 
-Todo o processo será implementado localmente. Além disso, um dashboard de visualização deve ser construído, com a apresentação dos dados e dos resultados do modelo.
+
+O desenvolvimento do projeto compreende os aspectos técnicos da implementação. Ele deve ocorrer de forma estruturada e organizada com relação aos objetivos, metas e tarefas. A sua apresentação deve ser feita durante o review, sintetizando os principais desafios e resultados obtidos. Todo o processo deve estar dockerizado.
+
+Vamos verificar cada uma destas etapas:
+
+- Projeto do Fluxo de Retreinamento do modelo: esta etapa consiste na definição de como os dados serão utilizados para realizar o processo de retreinamento do modelo. É importante deixar claro aqui qual o modelo será utilizado na realização do retreinamento do modelo. Ele estará disponível para todos os usuários? Qual a regra para realizar o retreinamento? Como os modelos são armazenados e ainda como escolher entre estes modelos. Importante destacar que, neste artefato, o que será entregue é um modelo conceitual sobre o fluxo, não sua instanciação. (Até 1.0 ponto)
+
+- Construção do processo de ETL: esta etapa consiste no processo de recuperar/extrair os dados para realizar o treinamento. A recuperação dos dados consiste em buscar os dados do parceiro para realizar o treinamento/retreinamento do modelo. É importante que ela esteja alinhada com o que foi definido no fluxo do modelo. Isso quer dizer como vocês vão receber os dados, processá-los para que eles possam ser utilizados no processo de treinamento do modelo. Está etapa PRECISA SER IMPLEMENTADA e DEVE ESTAR INTEGRADA COM O RESTANTE DO SISTEMA DE VOCÊS. (Até 2.5 pontos)
+
+- Pipeline de Treinamento do Modelo: esta etapa consiste na implementação do processo de retreinamento do modelo. Ele pode ser realizado com todos os dados, ou de forma incremental com novos dados, de acordo com o que foi previsto no projeto do fluxo do modelo. Também faz parte desta etapa, a definição de como os modelos deverão ficar armazenados e como eles poderão substituir o modelo atual. Cabe destacar que é RECOMENDAVEL manter alguma rastreabilidade sobre qual a precisão dos modelos, quando ele foi treinado, qual o conjunto de dados utilizado e por qual período ele ficou ativo no sistema. (Até 4.0 pontos)
+
+- Visualização de dados: esta etapa consiste na construção das visualizações dos dados que serão fornecidos pelo sistema. Este ponto está levando em consideração a visualização simplificada (direta) e a visualização com mais detalhes do sistema (para os usuários da manutenção/qualidade). Serão avaliados aqui características como: usabilidade do sistema, qualidade das visualizações e características de implementação. Quanto a características de implementação, serão avaliados as práticas de código (arquitetura da solução, funcionalidades) utilizadas para realizar a implementação da solução. As tecnologias utilizadas aqui são a critério do grupo, cabe destacar que devem estar claro qual a motivação das escolhas para estas tecnologias. (Até 2.5 pontos)
+
+A documentação deve trazer uma visão holística da implementação, trazendo um aprofundamento de todos os seus detalhes técnicos. O código fonte deve atender às boas práticas de programação, arquitetura de software e usar um estilo condizente com as diretrizes da(s) linguagem(ns) utilizadas.
+
+
+Verificar mais detalhes no material de apoio do projeto: https://murilo-zc.github.io/M7-Inteli-Eng-Comp/Artefatos/
+Os repositórios, que devem estar atualizados com a última versão da documentação, também serão avaliados. Serão considerados os seguintes critérios:
+
+- O repositório deve conter um diretório 'src' para o código fonte. Pode haver variações no nome, mas todo o código fonte da solução deve estar em único repositório.
+
+- O README do repositório deve conter instruções de como iniciar a documentação.
+
+- A documentação deve estar funcional.
+
+- A documentação do projeto deve deixar claro como executar o sistema.
+
+- Os códigos do modelo devem estar disponíveis no repositório.
+
+- O repositório não deve conter dados sensíveis dos clientes.
 
 ## Sprint 5
 
