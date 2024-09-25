@@ -41,7 +41,7 @@ A principal diferença entre ML e Deep Learning está na complexidade dos modelo
 
 <img src="https://techvidvan.com/tutorials/wp-content/uploads/sites/2/2020/08/Reinforcement-Learning-in-ML-TV.jpg" style={{ display: 'block', marginLeft: 'auto', maxHeight: '50vh', marginRight: 'auto', marginBottom: '24px' }}/>
 
-No contexto nosso contexto, focaremos principalmente no aprendizado supervisionado, pois estaremos trabalhando com dados históricos rotulados para prever valores futuros. No entanto, técnicas de aprendizado não supervisionado podem ser úteis na fase de preparação e exploração dos dados.
+No nosso contexto, focaremos principalmente no aprendizado supervisionado, pois estaremos trabalhando com dados históricos rotulados para prever valores futuros. No entanto, técnicas de aprendizado não supervisionado podem ser úteis na fase de preparação e exploração dos dados.
 
 :::note[Autoestudos]
 
